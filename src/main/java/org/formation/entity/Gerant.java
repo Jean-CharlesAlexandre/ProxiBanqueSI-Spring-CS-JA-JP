@@ -2,17 +2,19 @@ package org.formation.entity;
 
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.OneToMany;
 
-//@Entity
+@Entity
 public class Gerant extends Employe {
 
+	@OneToMany(mappedBy = "gerant", cascade = { CascadeType.PERSIST })
 	private List<Conseiller> listeConseillers;
 
-	public Gerant(String mail, String telephone, Adresse adresse, String identifiant, String motDePasse,
-			List<Conseiller> listeConseillers) {
-		super(mail, telephone, adresse, identifiant, motDePasse);
-		this.listeConseillers = listeConseillers;
+	public Gerant(String mail, String telephone, Adresse adresse, String identifiant, String motDePasse, String nom,
+			String prenom) {
+		super(mail, telephone, adresse, identifiant, motDePasse, nom, prenom);
 	}
 
 	public Gerant() {

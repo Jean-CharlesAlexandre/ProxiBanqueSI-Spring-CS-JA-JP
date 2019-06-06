@@ -1,14 +1,25 @@
 package org.formation.entity;
 
+import javax.persistence.Entity;
+import javax.persistence.Inheritance;
+import javax.persistence.InheritanceType;
+
+@Entity
+@Inheritance(strategy = InheritanceType.JOINED)
 public class Employe extends Personne {
 
 	private String identifiant;
 	private String motDePasse;
+	
+	private String nom;
+	private String prenom;
 
-	public Employe(String mail, String telephone, Adresse adresse, String identifiant, String motDePasse) {
+	public Employe(String mail, String telephone, Adresse adresse,String identifiant, String motDePasse,String nom,String prenom) {
 		super(mail, telephone, adresse);
 		this.identifiant = identifiant;
 		this.motDePasse = motDePasse;
+		this.nom = nom;
+		this.prenom = prenom;
 	}
 
 	public Employe() {
@@ -31,9 +42,26 @@ public class Employe extends Personne {
 		this.motDePasse = motDePasse;
 	}
 
+	public String getNom() {
+		return nom;
+	}
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public String getPrenom() {
+		return prenom;
+	}
+
+	public void setPrenom(String prenom) {
+		this.prenom = prenom;
+	}
+
 	@Override
 	public String toString() {
-		return "Employe [identifiant=" + identifiant + ", motDePasse=" + motDePasse + ", getMail()=" + getMail()
-				+ ", getTelephone()=" + getTelephone() + ", getAdresse()=" + getAdresse() + "]";
+		return "Employe [identifiant=" + identifiant + ", motDePasse=" + motDePasse + ", nom=" + nom + ", prenom="
+				+ prenom + "]";
 	}
+
 }

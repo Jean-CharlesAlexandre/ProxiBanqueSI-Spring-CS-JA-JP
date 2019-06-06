@@ -1,8 +1,8 @@
-package org.formation.repository;
-
-import org.formation.entity.Operation;
-import org.springframework.data.jpa.repository.JpaRepository;
-
-public interface OperationRepository extends JpaRepository<Operation, Long> {
-
-}
+//package org.formation.repository;
+//
+//import org.formation.entity.Operation;
+//import org.springframework.data.jpa.repository.JpaRepository;
+//
+//public interface OperationRepository extends JpaRepository<Operation, Long> {
+//
+//}

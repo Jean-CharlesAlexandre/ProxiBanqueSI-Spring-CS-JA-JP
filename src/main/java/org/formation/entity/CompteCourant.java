@@ -1,20 +1,21 @@
 package org.formation.entity;
 
-import java.util.List;
-
-import javax.persistence.DiscriminatorValue;
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
 
 @Entity
-//@DiscriminatorValue("C_Courant")
 public class CompteCourant extends Compte {
 
 	private static final int AUTORISATIONDECOUVERT = 1000;
+
+	@OneToOne(cascade = { CascadeType.PERSIST, CascadeType.REMOVE })
+	@JoinColumn(name = "CB_id")
 	private CarteBancaire carteBancaire;
 
-	public CompteCourant(Long numCompte, String dateOuverture, Double solde, List<Operation> listeOperations,
-			Client clientAssocie, CarteBancaire carteBancaire) {
-		super(numCompte, dateOuverture, solde, listeOperations, clientAssocie);
+	public CompteCourant(Long numCompte, String dateOuverture, Double solde, CarteBancaire carteBancaire) {
+		super(numCompte, dateOuverture, solde);
 		this.carteBancaire = carteBancaire;
 	}
 
@@ -37,7 +38,7 @@ public class CompteCourant extends Compte {
 	@Override
 	public String toString() {
 		return "CompteCourant [carteBancaire=" + carteBancaire + ", getNumCompte()=" + getNumCompte()
-				+ ", getDateOuverture()=" + getDateOuverture() + ", getSolde()=" + getSolde()
-				+ ", getListeOperations()=" + getListeOperations() + ", getClientAssocie()=" + getClientAssocie() + "]";
+				+ ", getDateOuverture()=" + getDateOuverture() + ", getSolde()=" + getSolde() + ", getClientAssocie()="
+				+ getClientAssocie() + "]";
 	}
 }

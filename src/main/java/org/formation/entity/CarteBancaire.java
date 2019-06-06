@@ -12,12 +12,10 @@ public class CarteBancaire {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	private String typePremierOuElectron;
-	private CompteCourant compteAssocie;
 
-	public CarteBancaire(String typePremierOuElectron, CompteCourant compteAssocie) {
+	public CarteBancaire(String typePremierOuElectron) {
 		super();
 		this.typePremierOuElectron = typePremierOuElectron;
-		this.compteAssocie = compteAssocie;
 	}
 
 	public CarteBancaire() {
@@ -36,17 +34,9 @@ public class CarteBancaire {
 		this.typePremierOuElectron = typePremierOuElectron;
 	}
 
-	public CompteCourant getCompteAssocie() {
-		return compteAssocie;
-	}
-
-	public void setCompteAssocie(CompteCourant compteAssocie) {
-		this.compteAssocie = compteAssocie;
-	}
-
 	@Override
 	public String toString() {
-		return "CarteBancaire [typePremierOuElectron=" + typePremierOuElectron + ", compteAssocie=" + compteAssocie
-				+ "]";
+		return "CarteBancaire [typePremierOuElectron=" + typePremierOuElectron + "]";
 	}
+
 }
