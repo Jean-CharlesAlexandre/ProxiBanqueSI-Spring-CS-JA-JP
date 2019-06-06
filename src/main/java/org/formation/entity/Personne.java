@@ -14,6 +14,10 @@ public class Personne {
 		this.adresse = adresse;
 	}
 
+	public Personne() {
+		super();
+	}
+
 	public String getMail() {
 		return mail;
 	}

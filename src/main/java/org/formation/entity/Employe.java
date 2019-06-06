@@ -11,6 +11,10 @@ public class Employe extends Personne {
 		this.motDePasse = motDePasse;
 	}
 
+	public Employe() {
+		super();
+	}
+
 	public String getIdentifiant() {
 		return identifiant;
 	}

@@ -12,6 +12,10 @@ public class Entreprise extends Client {
 		this.raisonSociale = raisonSociale;
 	}
 
+	public Entreprise() {
+		super();
+	}
+
 	public String getRaisonSociale() {
 		return raisonSociale;
 	}

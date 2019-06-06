@@ -16,6 +16,10 @@ public class Operation {
 		this.typeDebitOuCredit = typeDebitOuCredit;
 	}
 
+	public Operation() {
+		super();
+	}
+
 	public String getDateOperation() {
 		return dateOperation;
 	}

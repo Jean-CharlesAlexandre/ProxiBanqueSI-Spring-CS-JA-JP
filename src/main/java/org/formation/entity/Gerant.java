@@ -12,6 +12,10 @@ public class Gerant extends Employe {
 		this.listeConseillers = listeConseillers;
 	}
 
+	public Gerant() {
+		super();
+	}
+
 	public List<Conseiller> getListeConseillers() {
 		return listeConseillers;
 	}

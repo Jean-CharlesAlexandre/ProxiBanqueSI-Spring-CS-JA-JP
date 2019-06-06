@@ -12,6 +12,10 @@ public class CarteBancaire {
 		this.compteAssocie = compteAssocie;
 	}
 
+	public CarteBancaire() {
+		super();
+	}
+
 	public Long getId() {
 		return id;
 	}

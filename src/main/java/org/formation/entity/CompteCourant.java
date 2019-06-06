@@ -13,6 +13,10 @@ public class CompteCourant extends Compte {
 		this.carteBancaire = carteBancaire;
 	}
 
+	public CompteCourant() {
+		super();
+	}
+
 	public CarteBancaire getCarteBancaire() {
 		return carteBancaire;
 	}

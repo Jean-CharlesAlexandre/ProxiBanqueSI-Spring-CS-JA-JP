@@ -9,7 +9,10 @@ public class CompteEpargne extends Compte {
 	public CompteEpargne(Long numCompte, String dateOuverture, Double solde, List<Operation> listeOperations,
 			Client clientAssocie) {
 		super(numCompte, dateOuverture, solde, listeOperations, clientAssocie);
-		// TODO Auto-generated constructor stub
+	}
+
+	public CompteEpargne() {
+		super();
 	}
 
 	public static double getTauxremuneration() {

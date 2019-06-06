@@ -21,6 +21,10 @@ public class Compte {
 		this.clientAssocie = clientAssocie;
 	}
 
+	public Compte() {
+		super();
+	}
+
 	public Long getNumCompte() {
 		return numCompte;
 	}

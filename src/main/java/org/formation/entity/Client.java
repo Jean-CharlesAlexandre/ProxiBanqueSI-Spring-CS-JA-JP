@@ -13,6 +13,10 @@ public class Client extends Personne {
 		this.conseiller = conseiller;
 	}
 
+	public Client() {
+		super();
+	}
+
 	public List<Compte> getListeComptes() {
 		return listeComptes;
 	}

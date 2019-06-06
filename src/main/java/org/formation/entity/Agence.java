@@ -11,6 +11,10 @@ public class Agence {
 		this.dateCreation = dateCreation;
 	}
 
+	public Agence() {
+		super();
+	}
+
 	public Long getId() {
 		return id;
 	}

@@ -14,6 +14,10 @@ public class Conseiller extends Employe {
 		this.gerant = gerant;
 	}
 
+	public Conseiller() {
+		super();
+	}
+
 	public List<Client> getListeClients() {
 		return listeClients;
 	}

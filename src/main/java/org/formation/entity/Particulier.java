@@ -14,6 +14,10 @@ public class Particulier extends Client {
 		this.prenom = prenom;
 	}
 
+	public Particulier() {
+		super();
+	}
+
 	public String getNom() {
 		return nom;
 	}

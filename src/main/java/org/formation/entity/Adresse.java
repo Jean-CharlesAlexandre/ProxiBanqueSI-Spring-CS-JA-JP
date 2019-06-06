@@ -16,6 +16,10 @@ public class Adresse {
 		this.ville = ville;
 	}
 
+	public Adresse() {
+		super();
+	}
+
 	public Long getId() {
 		return id;
 	}
