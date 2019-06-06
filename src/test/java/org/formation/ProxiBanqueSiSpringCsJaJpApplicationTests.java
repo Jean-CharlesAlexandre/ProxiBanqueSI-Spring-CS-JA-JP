@@ -1,10 +1,33 @@
-package org.formation.test;
+package org.formation;
 
+import org.formation.entity.Personne;
+import org.formation.repository.ClientRepository;
+import org.formation.repository.PersonneRepository;
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.ContextConfiguration;
 
 @SpringBootTest
 class ProxiBanqueSiSpringCsJaJpApplicationTests {
 
+	@Autowired
+	private PersonneRepository repository;
+	
+	@Test
+	void createClient() {
+		
+		Personne p = new Personne("personne@mail.com", "0659631456");
+		repository.save(p);
+		
+//		Adresse a = new Adresse("8","rue saint louis", "64000", "Biarritz");
+//		Client clientP = new Client("clientp@mail.com", "0659642536"); // "Spinnato", "Chloé");
+//		repository.save(clientP);
+//		System.out.println("////////////////////////////////////////////ca marche");
+		
+	}
+
+	
 //	@Autowired
 //	private ClientRepository repository;
 //

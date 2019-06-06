@@ -1,11 +1,11 @@
 package org.formation.controller;
 
-import org.formation.repository.ClientRepository;
-import org.formation.repository.CompteRepository;
-import org.formation.repository.ConseillerRepository;
-import org.formation.repository.OperationRepository;
+import org.formation.entity.Client;
+import org.formation.service.ConseillerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -15,16 +15,28 @@ import org.springframework.web.bind.annotation.RestController;
 public class RestConseillerContoller {
 
 	@Autowired
-	ClientRepository clientRepository;
-
-	@Autowired
-	CompteRepository compteRepository;
-
-	@Autowired
-	ConseillerRepository conseillerRepository;
-
-	@Autowired
-	OperationRepository operationRepository;
+	ConseillerService conseillerService;
+	
+	@PostMapping
+	public Client createClient(@RequestBody Client client) {
+//		System.out.println("///////////////////////////POST///////////////////////////");
+		return conseillerService.creerClient(client);
+	}
+	
+	
+	
+	
+//	@Autowired
+//	ClientRepository clientRepository;
+//
+//	@Autowired
+//	CompteRepository compteRepository;
+//
+//	@Autowired
+//	ConseillerRepository conseillerRepository;
+//
+//	@Autowired
+//	OperationRepository operationRepository;
 
 //	@GetMapping
 //	public List<Client> getClients() {

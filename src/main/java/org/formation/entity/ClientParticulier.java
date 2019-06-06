@@ -2,19 +2,32 @@ package org.formation.entity;
 
 import java.util.List;
 
-public class Particulier extends Client {
+import javax.persistence.DiscriminatorValue;
+import javax.persistence.Entity;
+
+@Entity
+//@DiscriminatorValue("Particulier")
+public class ClientParticulier extends Client {
 
 	private String nom;
 	private String prenom;
 
-	public Particulier(String mail, String telephone, Adresse adresse, List<Compte> listeComptes, Conseiller conseiller,
+	// Constructeurs
+	
+	public ClientParticulier(String mail, String telephone, Adresse adresse, List<Compte> listeComptes, Conseiller conseiller,
 			String nom, String prenom) {
 		super(mail, telephone, adresse, listeComptes, conseiller);
 		this.nom = nom;
 		this.prenom = prenom;
 	}
+	
+	public ClientParticulier(String mail, String telephone, Adresse adresse, String nom, String prenom) {
+		super(mail, telephone, adresse);
+		this.nom = nom;
+		this.prenom = prenom;
+	}
 
-	public Particulier() {
+	public ClientParticulier() {
 		super();
 	}
 

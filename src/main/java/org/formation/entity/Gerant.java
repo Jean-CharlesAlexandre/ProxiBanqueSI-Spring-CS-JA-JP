@@ -2,6 +2,9 @@ package org.formation.entity;
 
 import java.util.List;
 
+import javax.persistence.Entity;
+
+//@Entity
 public class Gerant extends Employe {
 
 	private List<Conseiller> listeConseillers;

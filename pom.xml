@@ -9,6 +9,7 @@
 		<version>2.2.0.M3</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
+	
 	<groupId>org.formation</groupId>
 	<artifactId>ProxiBanqueSI-Spring-CS-JA-JP</artifactId>
 	<version>0.0.1-SNAPSHOT</version>

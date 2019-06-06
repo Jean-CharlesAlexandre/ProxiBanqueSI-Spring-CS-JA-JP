@@ -1,9 +1,23 @@
 package org.formation.entity;
 
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+
+//@Entity
 public class Operation {
 
+//	@Id
+//	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	private String dateOperation;
+	
+//	@ManyToOne(cascade = { CascadeType.PERSIST, CascadeType.REMOVE })
+//	@JoinColumn(name = "compte_id", unique = true)
 	private Compte compte;
 	private Double montant;
 	private String typeDebitOuCredit;

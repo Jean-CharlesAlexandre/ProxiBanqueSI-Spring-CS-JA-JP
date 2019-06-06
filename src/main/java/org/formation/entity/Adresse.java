@@ -1,7 +1,17 @@
 package org.formation.entity;
 
+import javax.persistence.Embeddable;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Embeddable
+@Entity
 public class Adresse {
 
+//	@Id
+//	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	private String numero;
 	private String rue;

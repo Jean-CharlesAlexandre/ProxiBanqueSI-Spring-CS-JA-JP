@@ -2,6 +2,11 @@ package org.formation.entity;
 
 import java.util.List;
 
+import javax.persistence.DiscriminatorValue;
+import javax.persistence.Entity;
+
+@Entity
+//@DiscriminatorValue("C_Courant")
 public class CompteCourant extends Compte {
 
 	private static final int AUTORISATIONDECOUVERT = 1000;

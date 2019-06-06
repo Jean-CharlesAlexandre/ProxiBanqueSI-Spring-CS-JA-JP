@@ -2,6 +2,11 @@ package org.formation.entity;
 
 import java.util.List;
 
+import javax.persistence.DiscriminatorValue;
+import javax.persistence.Entity;
+
+@Entity
+//@DiscriminatorValue("C_Epargne")
 public class CompteEpargne extends Compte {
 
 	private static final double TAUXREMUNERATION = 0.03;

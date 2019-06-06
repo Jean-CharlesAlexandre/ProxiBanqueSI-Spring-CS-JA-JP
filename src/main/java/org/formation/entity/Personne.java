@@ -1,10 +1,20 @@
 package org.formation.entity;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
 public class Personne {
 
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	private String mail;
 	private String telephone;
+	
+//	@Embedded
 	private Adresse adresse;
 
 	public Personne(String mail, String telephone, Adresse adresse) {
@@ -12,6 +22,12 @@ public class Personne {
 		this.mail = mail;
 		this.telephone = telephone;
 		this.adresse = adresse;
+	}
+	
+	public Personne(String mail, String telephone) {
+		super();
+		this.mail = mail;
+		this.telephone = telephone;
 	}
 
 	public Personne() {
