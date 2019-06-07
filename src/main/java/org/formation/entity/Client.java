@@ -7,6 +7,12 @@ import javax.persistence.InheritanceType;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
+import javax.persistence.Transient;
+import javax.xml.bind.annotation.XmlTransient;
+
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
@@ -59,11 +65,15 @@ public class Client extends Personne {
 		this.compteEpargne = compteEpargne;
 	}
 
+	public void setId(Long id) {		
+	}
+	
 	@Override
 	public String toString() {
 		return "Client [compteCourant=" + compteCourant + ", compteEpargne=" + compteEpargne + ", conseiller="
 				+ conseiller + ", getMail()=" + getMail() + ", getTelephone()=" + getTelephone() + ", getAdresse()="
 				+ getAdresse() + "]";
 	}
+
 
 }
