@@ -50,7 +50,7 @@ public class RestConseillerContoller {
 	}
 	
 	
-	// /!\ 
+	// /!\  A REVOIR 
 	@PutMapping
 	public Client updateClient(@RequestBody Client client) { //, @PathVariable("id") Long id) {
 //		client.setId(id);

@@ -38,7 +38,7 @@ public class GerantServiceImpl implements GerantService {
 
 	@Override
 	public List<Conseiller> recupererListeConseillers() {
-		LOGGER.info("Liste conseiller récuperée");
+		LOGGER.info("Liste conseillers récuperée");
 		return consRepository.findAll();
 	}
 

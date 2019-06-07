@@ -7389,3 +7389,167 @@ java.lang.StackOverflowError: null
 				- HikariPool-1 - Shutdown initiated...
 11:23:23.353 2237676 [RMI TCP Connection(85)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource
 				- HikariPool-1 - Shutdown completed.
+12:11:17.218 346  [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- Starting ProxiBanqueSiSpringCsJaJpApplication on Mambo25 with PID 3068 (C:\Users\Adminl\workspacechloe\PROJETPROXIBANQUE\ProxiBanqueSI-Spring-CS-JA-JP\target\classes started by Adminl in C:\Users\Adminl\workspacechloe\PROJETPROXIBANQUE\ProxiBanqueSI-Spring-CS-JA-JP)
+12:11:17.220 348  [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- No active profile set, falling back to default profiles: default
+12:11:17.644 772  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Bootstrapping Spring Data repositories in DEFAULT mode.
+12:11:17.712 840  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Finished Spring Data repository scanning in 63ms. Found 12 repository interfaces.
+12:11:17.880 1008 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$754b6a6c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:11:18.040 1168 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				- Tomcat initialized with port(s): 8080 (http)
+12:11:18.050 1178 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Initializing ProtocolHandler ["http-nio-8080"]
+12:11:18.058 1186 [main] INFO  o.a.catalina.core.StandardService
+				- Starting service [Tomcat]
+12:11:18.058 1186 [main] INFO  o.a.catalina.core.StandardEngine
+				- Starting Servlet engine: [Apache Tomcat/9.0.19]
+12:11:18.237 1365 [main] INFO  o.apache.jasper.servlet.TldScanner
+				- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12:11:18.244 1372 [main] INFO  o.a.c.c.C.[.[.[/ProxiBanqueSI]
+				- Initializing Spring embedded WebApplicationContext
+12:11:18.244 1372 [main] INFO  o.s.web.context.ContextLoader
+				- Root WebApplicationContext: initialization completed in 996 ms
+12:11:18.366 1494 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: default]
+12:11:18.401 1529 [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+12:11:18.470 1598 [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+12:11:18.526 1654 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Starting...
+12:11:18.633 1761 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Start completed.
+12:11:18.639 1767 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+12:11:19.310 2438 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:11:19.312 2440 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:11:19.532 2660 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+				- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:11:19.674 2802 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Initializing ExecutorService 'applicationTaskExecutor'
+12:11:19.795 2923 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Starting ProtocolHandler ["http-nio-8080"]
+12:11:19.804 2932 [main] ERROR o.a.catalina.util.LifecycleBase
+				- Failed to start component [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:404)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:319)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1275)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1263)
+	at org.formation.ProxiBanqueSiSpringCsJaJpApplication.main(ProxiBanqueSiSpringCsJaJpApplication.java:10)
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:219)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:239)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1116)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1202)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+12:11:19.812 2940 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Pausing ProtocolHandler ["http-nio-8080"]
+12:11:19.812 2940 [main] INFO  o.a.catalina.core.StandardService
+				- Stopping service [Tomcat]
+12:11:19.815 2943 [main] INFO  o.a.catalina.util.LifecycleBase
+				- The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+12:11:19.815 2943 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Stopping ProtocolHandler ["http-nio-8080"]
+12:11:19.815 2943 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Destroying ProtocolHandler ["http-nio-8080"]
+12:11:19.818 2946 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener
+				- 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+12:11:19.820 2948 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter
+				- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+12:11:19.822 2950 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Shutting down ExecutorService 'applicationTaskExecutor'
+12:11:19.823 2951 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Closing JPA EntityManagerFactory for persistence unit 'default'
+12:11:19.825 2953 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown initiated...
+12:11:19.831 2959 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown completed.
+12:11:27.746 343  [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- Starting ProxiBanqueSiSpringCsJaJpApplication on Mambo25 with PID 9648 (C:\Users\Adminl\workspacechloe\PROJETPROXIBANQUE\ProxiBanqueSI-Spring-CS-JA-JP\target\classes started by Adminl in C:\Users\Adminl\workspacechloe\PROJETPROXIBANQUE\ProxiBanqueSI-Spring-CS-JA-JP)
+12:11:27.748 345  [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- No active profile set, falling back to default profiles: default
+12:11:28.165 762  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Bootstrapping Spring Data repositories in DEFAULT mode.
+12:11:28.231 828  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Finished Spring Data repository scanning in 62ms. Found 12 repository interfaces.
+12:11:28.398 995  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$953da16a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:11:28.557 1154 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				- Tomcat initialized with port(s): 8080 (http)
+12:11:28.567 1164 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Initializing ProtocolHandler ["http-nio-8080"]
+12:11:28.575 1172 [main] INFO  o.a.catalina.core.StandardService
+				- Starting service [Tomcat]
+12:11:28.575 1172 [main] INFO  o.a.catalina.core.StandardEngine
+				- Starting Servlet engine: [Apache Tomcat/9.0.19]
+12:11:28.751 1348 [main] INFO  o.apache.jasper.servlet.TldScanner
+				- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12:11:28.758 1355 [main] INFO  o.a.c.c.C.[.[.[/ProxiBanqueSI]
+				- Initializing Spring embedded WebApplicationContext
+12:11:28.758 1355 [main] INFO  o.s.web.context.ContextLoader
+				- Root WebApplicationContext: initialization completed in 981 ms
+12:11:28.878 1475 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: default]
+12:11:28.913 1510 [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+12:11:28.981 1578 [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+12:11:29.031 1628 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Starting...
+12:11:29.153 1750 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Start completed.
+12:11:29.158 1755 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+12:11:29.952 2549 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:11:29.955 2552 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:11:30.202 2799 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+				- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:11:30.346 2943 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Initializing ExecutorService 'applicationTaskExecutor'
+12:11:30.474 3071 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Starting ProtocolHandler ["http-nio-8080"]
+12:11:30.495 3092 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				- Tomcat started on port(s): 8080 (http) with context path '/ProxiBanqueSI'
+12:11:30.497 3094 [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- Started ProxiBanqueSiSpringCsJaJpApplication in 2.922 seconds (JVM running for 3.445)
