@@ -33,9 +33,9 @@ public class ConseillerServiceImpl implements ConseillerService {
 	}
 
 	@Override
-	public void modifierClient(Client client) {
-		clientRepository.save(client);
+	public Client modifierClient(Client client) {
 		LOGGER.info("Client d'id " + client.getId() + " a été modifié");
+		return clientRepository.save(client);   //AndFlush(client); //save(client); //saveAndFlush(client);
 	}
 
 	@Override
@@ -50,7 +50,6 @@ public class ConseillerServiceImpl implements ConseillerService {
 		LOGGER.info("Liste conseillers récuperée");
 		return clientRepository.findAll();
 	}
-	
 	
 
 }

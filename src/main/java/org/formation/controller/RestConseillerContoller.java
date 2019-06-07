@@ -8,6 +8,7 @@ import org.formation.entity.Client;
 import org.formation.service.ConseillerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -19,9 +20,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-//@RestController
-//@RequestMapping("/clients")
-//@CrossOrigin("http://localhost:4200")
+@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/clients")
 public class RestConseillerContoller {
@@ -51,14 +50,16 @@ public class RestConseillerContoller {
 	
 	
 	// /!\  A REVOIR 
-	@PutMapping
-	public Client updateClient(@RequestBody Client client) { //, @PathVariable("id") Long id) {
+	@ResponseStatus(code = HttpStatus.CREATED)
+	@PutMapping("/{id}")
+	public Client updateClient(@RequestBody Client client, @PathVariable("id") Long id) { //, @PathVariable("id") Long id) {
 //		client.setId(id);
 //		conseillerService.modifierClient(client);
 //		Client clientAModif = conseillerService.recupererClientParId(id);
 //		conseillerService.modifierClient(client);
-		conseillerService.modifierClient(client);
-		return client;
+//		client.setId(id);
+		client.setId(id);
+		return conseillerService.modifierClient(client);
 	}
 	
 	@GetMapping

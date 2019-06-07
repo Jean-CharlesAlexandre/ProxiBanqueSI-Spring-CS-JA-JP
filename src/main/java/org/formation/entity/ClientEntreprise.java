@@ -30,6 +30,6 @@ public class ClientEntreprise extends Client {
 	@Override
 	public String toString() {
 		return "Entreprise [raisonSociale=" + raisonSociale + ", getConseiller()=" + getConseiller() + ", getMail()="
-				+ getMail() + ", getTelephone()=" + getTelephone() + ", getAdresse()=" + getAdresse() + "]";
+				+ getEmail() + ", getTelephone()=" + getTelephone() + ", getAdresse()=" + getAdresse() + "]";
 	}
 }

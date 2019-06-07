@@ -9,28 +9,28 @@ import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
 
 @Entity
-@Inheritance(strategy = InheritanceType.JOINED)
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 public class Personne {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
-	private String mail;
+	private String email;
 	private String telephone;
 	
 	@Embedded
 	private Adresse adresse;
 
-	public Personne(String mail, String telephone, Adresse adresse) {
+	public Personne(String email, String telephone, Adresse adresse) {
 		super();
-		this.mail = mail;
+		this.email = email;
 		this.telephone = telephone;
 		this.adresse = adresse;
 	}
 	
-	public Personne(String mail, String telephone) {
+	public Personne(String email, String telephone) {
 		super();
-		this.mail = mail;
+		this.email = email;
 		this.telephone = telephone;
 	}
 
@@ -38,12 +38,12 @@ public class Personne {
 		super();
 	}
 
-	public String getMail() {
-		return mail;
+	public String getEmail() {
+		return email;
 	}
 
-	public void setMail(String mail) {
-		this.mail = mail;
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
 	public String getTelephone() {
@@ -65,9 +65,13 @@ public class Personne {
 	public Long getId() {
 		return id;
 	}
+	
+	public void setId(Long id) {
+		this.id = id;
+	}
 
 	@Override
 	public String toString() {
-		return "Personne [mail=" + mail + ", telephone=" + telephone + ", adresse=" + adresse + "]";
+		return "Personne [mail=" + email + ", telephone=" + telephone + ", adresse=" + adresse + "]";
 	}
 }

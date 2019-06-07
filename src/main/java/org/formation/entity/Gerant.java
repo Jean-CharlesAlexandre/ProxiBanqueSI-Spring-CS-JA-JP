@@ -35,7 +35,7 @@ public class Gerant extends Employe {
 	@Override
 	public String toString() {
 		return "Gerant [listeConseillers=" + listeConseillers + ", getIdentifiant()=" + getIdentifiant()
-				+ ", getMotDePasse()=" + getMotDePasse() + ", getMail()=" + getMail() + ", getTelephone()="
+				+ ", getMotDePasse()=" + getMotDePasse() + ", getMail()=" + getEmail() + ", getTelephone()="
 				+ getTelephone() + ", getAdresse()=" + getAdresse() + "]";
 	}
 }

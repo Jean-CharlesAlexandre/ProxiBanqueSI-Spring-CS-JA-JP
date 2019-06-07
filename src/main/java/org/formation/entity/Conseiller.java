@@ -54,7 +54,7 @@ public class Conseiller extends Employe {
 	@Override
 	public String toString() {
 		return "Conseiller [listeClients=" + listeClients + ", gerant=" + gerant + ", getIdentifiant()="
-				+ getIdentifiant() + ", getMotDePasse()=" + getMotDePasse() + ", getMail()=" + getMail()
+				+ getIdentifiant() + ", getMotDePasse()=" + getMotDePasse() + ", getMail()=" + getEmail()
 				+ ", getTelephone()=" + getTelephone() + ", getAdresse()=" + getAdresse() + "]";
 	}
 }

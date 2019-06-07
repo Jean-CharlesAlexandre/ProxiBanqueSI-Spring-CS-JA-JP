@@ -16,8 +16,8 @@ import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+//@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @Entity
-@Inheritance(strategy = InheritanceType.JOINED)
 public class Client extends Personne {
 
 	@OneToOne(cascade = { CascadeType.PERSIST, CascadeType.REMOVE })
@@ -65,13 +65,13 @@ public class Client extends Personne {
 		this.compteEpargne = compteEpargne;
 	}
 
-	public void setId(Long id) {		
-	}
+//	public void setId(Long id) {		
+//	}
 	
 	@Override
 	public String toString() {
 		return "Client [compteCourant=" + compteCourant + ", compteEpargne=" + compteEpargne + ", conseiller="
-				+ conseiller + ", getMail()=" + getMail() + ", getTelephone()=" + getTelephone() + ", getAdresse()="
+				+ conseiller + ", getMail()=" + getEmail() + ", getTelephone()=" + getTelephone() + ", getAdresse()="
 				+ getAdresse() + "]";
 	}
 

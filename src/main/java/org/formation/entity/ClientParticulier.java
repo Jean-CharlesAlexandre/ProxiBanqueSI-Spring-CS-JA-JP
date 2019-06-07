@@ -40,7 +40,7 @@ public class ClientParticulier extends Client {
 	@Override
 	public String toString() {
 		return "Particulier [nom=" + nom + ", prenom=" + prenom + ", getConseiller()=" + getConseiller()
-				+ ", getMail()=" + getMail() + ", getTelephone()=" + getTelephone() + ", getAdresse()=" + getAdresse()
+				+ ", getMail()=" + getEmail() + ", getTelephone()=" + getTelephone() + ", getAdresse()=" + getAdresse()
 				+ "]";
 	}
 }

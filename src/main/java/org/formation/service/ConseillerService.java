@@ -10,7 +10,7 @@ public interface ConseillerService {
 	
 	public Client recupererClientParId(Long id);
 
-	public void modifierClient(Client client);
+	public Client modifierClient(Client client);
 	
 	public void supprimerClient(Client client);
 	
