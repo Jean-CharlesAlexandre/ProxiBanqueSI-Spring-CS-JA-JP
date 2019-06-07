@@ -8,12 +8,15 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @Entity
 public class Conseiller extends Employe {
 
 	@OneToMany(mappedBy = "conseiller", cascade = { CascadeType.PERSIST })
 	private List<Client> listeClients;
 
+	@JsonIgnore
 	@ManyToOne
 	@JoinColumn(name = "gerant_id")
 	private Gerant gerant;

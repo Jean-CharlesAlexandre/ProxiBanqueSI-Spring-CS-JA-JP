@@ -9,6 +9,8 @@ import javax.persistence.InheritanceType;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @Inheritance(strategy = InheritanceType.JOINED)
 @Entity
 public class Compte {
@@ -23,6 +25,7 @@ public class Compte {
 //	@OneToMany(mappedBy = "compte", cascade = { CascadeType.PERSIST, CascadeType.REMOVE })
 //	private List<Operation> listeOperations;
 
+	@JsonIgnore
 	@ManyToOne
 	@JoinColumn(name = "client_id")
 	private Client clientAssocie;

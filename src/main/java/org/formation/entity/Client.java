@@ -8,6 +8,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
 public class Client extends Personne {
@@ -20,6 +22,7 @@ public class Client extends Personne {
 	@JoinColumn(name = "compteEpargne_id")
 	private CompteEpargne compteEpargne;
 
+	@JsonIgnore
 	@ManyToOne
 	@JoinColumn(name = "conseiller_id")
 	private Conseiller conseiller;
