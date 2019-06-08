@@ -5,7 +5,12 @@ import javax.persistence.Entity;
 @Entity
 public class CompteEpargne extends Compte {
 
-	private static final double TAUXREMUNERATION = 0.03;
+	private double TAUXREMUNERATION = 0.03;
+
+	public CompteEpargne(Long numCompte, String dateOuverture, Double solde, Double tauxRemuneration) {
+		super(numCompte, dateOuverture, solde);
+		tauxRemuneration = this.getTauxremuneration();
+	}
 
 	public CompteEpargne(Long numCompte, String dateOuverture, Double solde) {
 		super(numCompte, dateOuverture, solde);
@@ -15,7 +20,7 @@ public class CompteEpargne extends Compte {
 		super();
 	}
 
-	public static double getTauxremuneration() {
+	public double getTauxremuneration() {
 		return TAUXREMUNERATION;
 	}
 
