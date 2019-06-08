@@ -20,6 +20,11 @@ public class CompteCourant extends Compte {
 		this.carteBancaire = carteBancaire;
 		autorisationDecouvert = this.getAutorisationdecouvert();
 	}
+	
+	public CompteCourant(Long numCompte, String dateOuverture, Double solde, CarteBancaire carteBancaire) {
+		super(numCompte, dateOuverture, solde);
+		this.carteBancaire = carteBancaire;
+	}
 
 	public CompteCourant() {
 		super();

@@ -2,17 +2,9 @@ package org.formation.entity;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
-import javax.persistence.Inheritance;
-import javax.persistence.InheritanceType;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
-import javax.persistence.Transient;
-import javax.xml.bind.annotation.XmlTransient;
-
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
@@ -20,11 +12,11 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 @Entity
 public class Client extends Personne {
 
-	@OneToOne(cascade = { CascadeType.PERSIST, CascadeType.REMOVE })
+	@OneToOne(cascade = { CascadeType.PERSIST, CascadeType.REMOVE, CascadeType.MERGE })
 	@JoinColumn(name = "compteCourant_id")
 	private CompteCourant compteCourant;
 
-	@OneToOne(cascade = { CascadeType.PERSIST, CascadeType.REMOVE })
+	@OneToOne(cascade = { CascadeType.PERSIST, CascadeType.REMOVE, CascadeType.MERGE })
 	@JoinColumn(name = "compteEpargne_id")
 	private CompteEpargne compteEpargne;
 
@@ -33,12 +25,40 @@ public class Client extends Personne {
 	@JoinColumn(name = "conseiller_id")
 	private Conseiller conseiller;
 
+	private String nom;
+	private String prenom;
+	private String raisonSociale;
+
 	public Client(String mail, String telephone, Adresse adresse) {
 		super(mail, telephone, adresse);
 	}
 
 	public Client() {
 		super();
+	}
+
+	public String getNom() {
+		return nom;
+	}
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public String getPrenom() {
+		return prenom;
+	}
+
+	public void setPrenom(String prenom) {
+		this.prenom = prenom;
+	}
+
+	public String getRaisonSociale() {
+		return raisonSociale;
+	}
+
+	public void setRaisonSociale(String raisonSociale) {
+		this.raisonSociale = raisonSociale;
 	}
 
 	public Conseiller getConseiller() {
@@ -65,15 +85,15 @@ public class Client extends Personne {
 		this.compteEpargne = compteEpargne;
 	}
 
-//	public void setId(Long id) {		
-//	}
-	
+	public void setId(Long id) {
+		super.setId(id);
+	}
+
 	@Override
 	public String toString() {
 		return "Client [compteCourant=" + compteCourant + ", compteEpargne=" + compteEpargne + ", conseiller="
 				+ conseiller + ", getMail()=" + getEmail() + ", getTelephone()=" + getTelephone() + ", getAdresse()="
 				+ getAdresse() + "]";
 	}
-
 
 }

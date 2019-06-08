@@ -12,6 +12,10 @@ public class CompteEpargne extends Compte {
 		tauxRemuneration = this.getTauxremuneration();
 	}
 
+	public CompteEpargne(Long numCompte, String dateOuverture, Double solde) {
+		super(numCompte, dateOuverture, solde);
+	}
+
 	public CompteEpargne() {
 		super();
 	}

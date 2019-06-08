@@ -47,15 +47,16 @@ public class RestConseillerContoller {
 
 	// /!\ A REVOIR
 	@ResponseStatus(code = HttpStatus.CREATED)
-	@PutMapping("/{id}")
-	public Client updateClient(@RequestBody Client client, @PathVariable("id") Long id) { // , @PathVariable("id") Long
-																							// id) {
+	@PutMapping
+	public Client updateClient(@RequestBody Client client) { // , @PathVariable("id") Long
+																// id) {
 //		client.setId(id);
 //		conseillerService.modifierClient(client);
 //		Client clientAModif = conseillerService.recupererClientParId(id);
 //		conseillerService.modifierClient(client);
 //		client.setId(id);
-		client.setId(id);
+//		client = conseillerService.recupererClientParId(id);
+//		client.setId(id);
 		return conseillerService.modifierClient(client);
 	}
 
