@@ -12,6 +12,7 @@ import org.formation.entity.CompteCourant;
 import org.formation.entity.CompteEpargne;
 import org.formation.entity.Conseiller;
 import org.formation.entity.Gerant;
+import org.formation.repository.EmployeRepository;
 import org.formation.repository.GerantRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +23,9 @@ class ProxiBanqueSiSpringCsJaJpApplicationTests {
 
 	@Autowired
 	private GerantRepository repository;
+	
+	@Autowired
+	private EmployeRepository employeRepository;
 
 	@Test
 	void scenario() {
