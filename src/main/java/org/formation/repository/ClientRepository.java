@@ -4,7 +4,5 @@ import org.formation.entity.Client;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ClientRepository extends JpaRepository<Client, Long> {
-
-	// ON A LES METHODES DU CRUD PAR DEFAUT
 	
 }

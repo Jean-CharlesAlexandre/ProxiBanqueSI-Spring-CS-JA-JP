@@ -29,12 +29,23 @@ public class Client extends Personne {
 	private String prenom;
 	private String raisonSociale;
 
-	public Client(String mail, String telephone, Adresse adresse) {
-		super(mail, telephone, adresse);
+	public Client(String email, String telephone, Adresse adresse) {
+		super(email, telephone, adresse);
 	}
 
 	public Client() {
 		super();
+	}
+
+	public Client(String email, String telephone, Adresse adresse, String nom, String prenom) {
+		super(email, telephone, adresse);
+		this.nom = nom;
+		this.prenom = prenom;
+	}
+
+	public Client(String email, String telephone, Adresse adresse, String raisonSociale) {
+		super(email, telephone, adresse);
+		this.raisonSociale = raisonSociale;
 	}
 
 	public String getNom() {

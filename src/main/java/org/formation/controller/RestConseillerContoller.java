@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.formation.entity.Client;
 import org.formation.service.ConseillerService;
+import org.formation.service.GerantService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -24,10 +25,13 @@ public class RestConseillerContoller {
 
 	@Autowired
 	ConseillerService conseillerService;
+	
+	@Autowired
+	GerantService gerantService;
 
 	@ResponseStatus(code = HttpStatus.CREATED)
-	@PostMapping
-	public Client createClient(@RequestBody Client client) {
+	@PostMapping("/{idCons}")
+	public Client createClient(@PathVariable("id") Long idCons, @RequestBody Client client) {
 		conseillerService.creerClient(client);
 		return client;
 	}
@@ -45,65 +49,19 @@ public class RestConseillerContoller {
 		return client;
 	}
 
-	// /!\ A REVOIR
 	@ResponseStatus(code = HttpStatus.CREATED)
 	@PutMapping("/{id}")
-	public Client updateClient(@RequestBody Client client, @PathVariable("id") Long id) { //, @PathVariable("id") Long id) { // , @PathVariable("id") Long
-																// id) {
-//		client.setId(id);
-//		conseillerService.modifierClient(client);
-//		Client clientAModif = conseillerService.recupererClientParId(id);
-//		conseillerService.modifierClient(client);
-//		client.setId(id);
-//		client = conseillerService.recupererClientParId(id);
-		client.setId(id);
+
+	public Client updateClient(@RequestBody Client client) { 
+//		Client c = conseillerService.recupererClientParId(client.getId());
+//		Long idCons = c.getConseiller().getId();
+//		Conseiller cons = gerantService.recupererConseillerParId(idCons);
+//		client.setConseiller(cons);
 		return conseillerService.modifierClient(client);
-	}
+}
 
 	@GetMapping
 	public List<Client> getClients() {
 		return conseillerService.recupererListeClients();
 	}
-
-//	@Autowired
-//	ClientRepository clientRepository;
-//
-//	@Autowired
-//	CompteRepository compteRepository;
-//
-//	@Autowired
-//	ConseillerRepository conseillerRepository;
-//
-//	@Autowired
-//	OperationRepository operationRepository;
-
-//	@GetMapping
-//	public List<Client> getClients() {
-//		System.out.println("//////////////////////////////////////////////////////");
-//		return clientRepository.findAll();
-//	}
-//
-//	@PostMapping
-//	public Client createClient(@RequestBody Client client) {
-//		System.out.println("///////////////////////////POST///////////////////////////");
-//		return clientRepository.save(client);
-//	}
-//
-//	@PutMapping
-////	@CrossOrigin(origins = "*", methods = RequestMethod.PUT, allowedHeaders = "*")
-//	public Client updateClient(@RequestBody Client client) {
-//		System.out.println("///////////////////////////PUT///////////////////////////");
-//		return clientRepository.save(client);
-//
-//	}
-//
-//	@DeleteMapping("/{id}")
-//	public void deleteClient(@PathVariable("id") Long id) {
-//		clientRepository.deleteById(id);
-//	}
-//
-//	@GetMapping("/{id}")
-//	public Client getClient(@PathVariable("id") Long id) {
-//		return clientRepository.findById(id).get();
-//	}
 }
