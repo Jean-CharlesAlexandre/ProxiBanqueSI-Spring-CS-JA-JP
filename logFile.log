@@ -1636,3 +1636,35 @@ java.util.NoSuchElementException: No value present
 				- Conseiller d'id 26 a été récupéré
 16:30:44.375 2656554 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
 				- Conseiller d'id 26 a été récupéré
+17:13:10.849 5203028 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+17:13:53.856 5246035 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+17:15:19.844 5332023 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+17:16:40.303 5412482 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+17:16:44.701 5416880 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+17:16:44.701 5416880 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+17:16:45.746 5417925 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+17:16:50.266 5422445 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+17:16:50.266 5422445 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+17:16:51.599 5423778 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+17:16:53.063 5425242 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+17:16:53.063 5425242 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+17:17:38.107 5470286 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+17:17:38.107 5470286 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+17:26:30.330 6002509 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+17:26:30.383 6002562 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
