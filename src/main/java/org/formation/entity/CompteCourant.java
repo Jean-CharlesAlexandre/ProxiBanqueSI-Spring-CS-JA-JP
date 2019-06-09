@@ -8,7 +8,7 @@ import javax.persistence.OneToOne;
 @Entity
 public class CompteCourant extends Compte {
 
-	private int AUTORISATIONDECOUVERT = 1000;
+	private int autorisationDecouvert = 1000;
 
 	@OneToOne(cascade = { CascadeType.PERSIST, CascadeType.REMOVE })
 	@JoinColumn(name = "CB_id")
@@ -18,9 +18,9 @@ public class CompteCourant extends Compte {
 			int autorisationDecouvert) {
 		super(numCompte, dateOuverture, solde);
 		this.carteBancaire = carteBancaire;
-		autorisationDecouvert = this.getAutorisationdecouvert();
+		autorisationDecouvert = this.getAutorisationDecouvert();
 	}
-	
+
 	public CompteCourant(Long numCompte, String dateOuverture, Double solde, CarteBancaire carteBancaire) {
 		super(numCompte, dateOuverture, solde);
 		this.carteBancaire = carteBancaire;
@@ -38,8 +38,12 @@ public class CompteCourant extends Compte {
 		this.carteBancaire = carteBancaire;
 	}
 
-	public int getAutorisationdecouvert() {
-		return AUTORISATIONDECOUVERT;
+	public int getAutorisationDecouvert() {
+		return autorisationDecouvert;
+	}
+
+	public void setAutorisationDecouvert(int autorisationDecouvert) {
+		this.autorisationDecouvert = autorisationDecouvert;
 	}
 
 	@Override
