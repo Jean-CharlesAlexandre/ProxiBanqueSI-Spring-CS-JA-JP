@@ -50,7 +50,6 @@ public class RestConseillerContoller {
 		return client;
 	}
 
-
 	@ResponseStatus(code = HttpStatus.CREATED)
 	@PutMapping("/{id}")
 	public Client updateClient(@RequestBody Client client) { 
@@ -58,54 +57,11 @@ public class RestConseillerContoller {
 //		Long idCons = c.getConseiller().getId();
 //		Conseiller cons = gerantService.recupererConseillerParId(idCons);
 //		client.setConseiller(cons);
-		conseillerService.modifierClient(client);
-		return client;
-	}
+		return conseillerService.modifierClient(client);
+}
 
 	@GetMapping
 	public List<Client> getClients() {
 		return conseillerService.recupererListeClients();
 	}
-
-//	@Autowired
-//	ClientRepository clientRepository;
-//
-//	@Autowired
-//	CompteRepository compteRepository;
-//
-//	@Autowired
-//	ConseillerRepository conseillerRepository;
-//
-//	@Autowired
-//	OperationRepository operationRepository;
-
-//	@GetMapping
-//	public List<Client> getClients() {
-//		System.out.println("//////////////////////////////////////////////////////");
-//		return clientRepository.findAll();
-//	}
-//
-//	@PostMapping
-//	public Client createClient(@RequestBody Client client) {
-//		System.out.println("///////////////////////////POST///////////////////////////");
-//		return clientRepository.save(client);
-//	}
-//
-//	@PutMapping
-////	@CrossOrigin(origins = "*", methods = RequestMethod.PUT, allowedHeaders = "*")
-//	public Client updateClient(@RequestBody Client client) {
-//		System.out.println("///////////////////////////PUT///////////////////////////");
-//		return clientRepository.save(client);
-//
-//	}
-//
-//	@DeleteMapping("/{id}")
-//	public void deleteClient(@PathVariable("id") Long id) {
-//		clientRepository.deleteById(id);
-//	}
-//
-//	@GetMapping("/{id}")
-//	public Client getClient(@PathVariable("id") Long id) {
-//		return clientRepository.findById(id).get();
-//	}
 }

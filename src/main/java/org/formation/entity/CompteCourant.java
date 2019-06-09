@@ -10,7 +10,7 @@ public class CompteCourant extends Compte {
 
 	private int autorisationDecouvert = 1000;
 
-	@OneToOne(cascade = { CascadeType.PERSIST, CascadeType.REMOVE })
+	@OneToOne(cascade = { CascadeType.PERSIST, CascadeType.REMOVE, CascadeType.MERGE })
 	@JoinColumn(name = "CB_id")
 	private CarteBancaire carteBancaire;
 
