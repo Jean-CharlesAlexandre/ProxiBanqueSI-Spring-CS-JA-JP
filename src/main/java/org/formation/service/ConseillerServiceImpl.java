@@ -42,7 +42,6 @@ public class ConseillerServiceImpl implements ConseillerService {
 	public void supprimerClient(Client client) {
 		clientRepository.delete(client);
 		LOGGER.info("Client d'id " + client.getId() + " a été supprimé");
-
 	}
 
 	@Override

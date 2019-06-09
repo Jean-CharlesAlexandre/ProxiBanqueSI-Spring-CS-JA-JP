@@ -6,7 +6,6 @@ import org.formation.entity.Client;
 import org.formation.entity.Conseiller;
 import org.formation.service.ConseillerService;
 import org.formation.service.GerantService;
-import org.formation.service.GerantServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,10 +28,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class RestConseillerController {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(RestConseillerController.class);
-	
+
 	@Autowired
 	ConseillerService conseillerService;
-	
+
 	@Autowired
 	GerantService gerantService;
 
@@ -68,7 +67,7 @@ public class RestConseillerController {
 		client.setConseiller(cons);
 		conseillerService.modifierClient(client);
 		return client;
-}
+	}
 
 	@GetMapping
 	public List<Client> getClients() {
