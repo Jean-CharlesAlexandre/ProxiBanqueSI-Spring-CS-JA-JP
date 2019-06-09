@@ -1,0 +1,498 @@
+17:24:53.026 1564729 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+17:24:56.950 1568653 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+17:24:58.254 1569957 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+17:25:00.710 1572413 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 17 a été récupéré
+17:25:00.716 1572419 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 17 a été récupéré
+17:25:11.575 1583278 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 17 a été récupéré
+17:25:11.575 1583278 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 19 a été récupéré
+17:26:49.099 1680802 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+17:50:14.785 3086488 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+18:02:27.270 3818973 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+18:02:59.274 3850977 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+18:09:25.776 4237479 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+18:09:32.363 4244066 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+18:15:04.517 4576220 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+18:15:11.734 4583437 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:15:11.735 4583438 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:15:53.191 4624894 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:15:53.191 4624894 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:17:27.654 4719357 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:17:27.655 4719358 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:22:34.947 5026650 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:22:34.947 5026650 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:22:46.566 5038269 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:22:46.568 5038271 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:23:58.225 5109928 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:23:58.225 5109928 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:25:06.086 5177789 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:25:06.089 5177792 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:26:01.097 5232800 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:26:01.100 5232803 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:30:44.227 5515930 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:30:44.227 5515930 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:32:15.730 5607433 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:32:15.730 5607433 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:32:19.128 5610831 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:32:20.768 5612471 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:32:20.768 5612471 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:32:25.010 5616713 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:32:25.010 5616713 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:32:40.129 5631832 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:32:40.129 5631832 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:32:47.605 5639308 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:32:47.605 5639308 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:32:58.684 5650387 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:32:58.684 5650387 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:34:33.313 5745016 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:37:39.664 5931367 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:37:48.710 5940413 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:37:48.724 5940427 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:38:51.729 6003432 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:38:51.730 6003433 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:40:21.153 6092856 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:40:21.153 6092856 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:43:39.884 6291587 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:43:39.885 6291588 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:46:50.292 6481995 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:46:50.292 6481995 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:48:03.053 6554756 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:48:03.056 6554759 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:48:25.311 6577014 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:48:25.311 6577014 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:48:33.650 6585353 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:48:33.650 6585353 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:48:37.791 6589494 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:48:37.792 6589495 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:49:07.682 6619385 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:49:07.682 6619385 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:49:51.132 6662835 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:49:51.132 6662835 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:50:20.243 6691946 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:50:20.243 6691946 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:50:49.253 6720956 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:50:49.253 6720956 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:50:55.078 6726781 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:50:55.078 6726781 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:51:11.483 6743186 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:51:11.483 6743186 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:51:26.844 6758547 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:51:26.844 6758547 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:51:30.274 6761977 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:51:30.274 6761977 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:51:49.909 6781612 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:51:49.909 6781612 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:52:09.777 6801480 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:52:09.777 6801480 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:52:18.662 6810365 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:52:18.663 6810366 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:53:08.410 6860113 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:53:08.410 6860113 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:54:28.960 6940663 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:54:28.960 6940663 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:54:37.237 6948940 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:54:38.775 6950478 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:54:38.775 6950478 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:55:18.760 6990463 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:55:18.761 6990464 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:55:41.975 7013678 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:55:41.975 7013678 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:56:26.817 7058520 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+18:56:26.817 7058520 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:56:38.011 7069714 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+18:56:38.011 7069714 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+19:28:35.832 8987535 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+19:28:36.552 8988255 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+19:28:36.562 8988265 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+19:28:37.014 8988717 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+19:28:38.309 8990012 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+19:28:38.309 8990012 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+19:28:38.605 8990308 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+19:28:40.852 8992555 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+19:28:40.852 8992555 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Liste conseillers récuperée
+19:28:42.251 8993954 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+19:28:43.347 8995050 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+19:28:43.356 8995059 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+19:28:44.981 8996684 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+19:29:31.303 9043006 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+19:29:44.849 9056552 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+19:33:16.024 9267727 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+19:33:46.576 9298279 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+19:34:36.220 9347923 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+19:34:50.293 9361996 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+19:34:54.014 9365717 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+19:36:01.269 9432972 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+19:36:04.981 9436684 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+19:36:58.104 9489807 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+19:37:59.032 9550735 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+19:38:06.081 9557784 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+19:38:18.826 9570529 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+19:38:30.924 9582627 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+19:39:34.692 9646395 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+19:39:49.268 9660971 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+19:39:56.493 9668196 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+19:40:13.717 9685420 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+19:40:17.272 9688975 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+19:40:18.117 9689820 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+19:40:19.313 9691016 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+19:40:19.774 9691477 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+19:40:20.135 9691838 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+19:40:20.733 9692436 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+19:40:21.007 9692710 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+19:40:21.460 9693163 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+19:40:25.714 9697417 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:40:26.981 9698684 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:40:26.981 9698684 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+19:40:30.823 9702526 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:40:32.006 9703709 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+19:40:32.006 9703709 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:40:33.808 9705511 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:40:37.524 9709227 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:40:37.524 9709227 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+19:43:39.669 9891372 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:43:39.669 9891372 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+19:44:22.998 9934701 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:44:22.998 9934701 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+19:44:34.285 9945988 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+19:44:34.285 9945988 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:45:00.088 9971791 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:45:00.088 9971791 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+19:45:09.456 9981159 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:45:09.456 9981159 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+19:45:39.327 10011030 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:45:39.327 10011030 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+19:45:48.995 10020698 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:45:48.995 10020698 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+19:46:14.770 10046473 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:46:14.770 10046473 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+19:47:09.732 10101435 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+19:47:09.732 10101435 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:47:33.710 10125413 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+19:47:33.710 10125413 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:47:56.114 10147817 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:47:56.114 10147817 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+19:48:43.724 10195427 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+19:48:43.724 10195427 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:48:52.282 10203985 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:48:52.282 10203985 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+19:48:59.702 10211405 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:48:59.702 10211405 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+19:49:20.178 10231881 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+19:49:20.178 10231881 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:49:28.763 10240466 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+19:49:28.763 10240466 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:50:25.684 10297387 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:50:25.684 10297387 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+19:50:41.672 10313375 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+19:50:41.698 10313401 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:50:51.996 10323699 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+19:50:51.996 10323699 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:50:54.949 10326652 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:50:55.468 10327171 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:50:55.915 10327618 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:50:56.351 10328054 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:53:20.645 10472348 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:53:25.341 10477044 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:53:26.902 10478605 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+19:53:33.188 10484891 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+19:57:49.039 10740742 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+19:58:17.867 10769570 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+19:58:28.629 10780332 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+19:59:11.542 10823245 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+20:00:20.837 10892540 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+20:00:25.908 10897611 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+20:00:31.237 10902940 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+20:00:33.753 10905456 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+20:00:44.939 10916642 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+20:00:45.338 10917041 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+20:00:45.897 10917600 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+20:00:49.205 10920908 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 19 a été récupéré
+20:00:49.209 10920912 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 19 a été récupéré
+20:00:58.245 10929948 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 19 a été récupéré
+20:00:58.247 10929950 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+20:00:58.248 10929951 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 19 a été modifié
+20:00:58.288 10929991 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 19 a été récupéré
+20:00:58.290 10929993 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+20:00:58.290 10929993 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 19 a été modifié
+20:01:11.135 10942838 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+20:01:15.126 10946829 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 19 a été récupéré
+20:01:15.130 10946833 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 19 a été récupéré
+20:02:21.314 11013017 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+20:02:23.325 11015028 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver
+				- Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+20:02:23.344 11015047 [http-nio-8080-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver
+				- Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+20:02:29.872 11021575 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 22 a été récupéré
+20:02:29.872 11021575 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 17 a été récupéré
+20:02:45.558 11037261 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+20:02:45.558 11037261 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 22 a été récupéré
+20:02:51.005 11042708 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 19 a été récupéré
+20:02:51.005 11042708 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 22 a été récupéré
+20:02:54.934 11046637 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 19 a été récupéré
+20:02:54.937 11046640 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+20:02:54.937 11046640 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 19 a été modifié
+20:02:54.941 11046644 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 22 a été récupéré
+20:02:54.943 11046646 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+20:02:54.944 11046647 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 22 a été modifié
+20:03:32.934 11084637 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+20:03:35.599 11087302 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+20:03:36.939 11088642 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+20:03:37.865 11089568 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+20:12:16.289 11607992 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+20:12:19.172 11610875 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+20:12:19.172 11610875 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 17 a été récupéré
+20:12:50.146 11641849 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 17 a été récupéré
+20:12:50.146 11641849 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+20:14:34.090 11745793 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+20:14:34.090 11745793 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 17 a été récupéré
+20:14:50.900 11762603 [RMI TCP Connection(255)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin
+				- Application shutdown requested.
+20:14:50.906 11762609 [RMI TCP Connection(255)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Shutting down ExecutorService 'applicationTaskExecutor'
+20:14:50.907 11762610 [RMI TCP Connection(255)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Closing JPA EntityManagerFactory for persistence unit 'default'
+20:14:50.911 11762614 [RMI TCP Connection(255)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown initiated...
+20:14:50.915 11762618 [RMI TCP Connection(255)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown completed.

@@ -3,6 +3,7 @@ package org.formation.controller;
 import java.util.List;
 
 import org.formation.entity.Client;
+import org.formation.entity.Conseiller;
 import org.formation.service.ConseillerService;
 import org.formation.service.GerantService;
 import org.formation.service.GerantServiceImpl;
@@ -60,7 +61,6 @@ public class RestConseillerController {
 
 	@ResponseStatus(code = HttpStatus.CREATED)
 	@PutMapping("/{id}")
-
 	public Client updateClient(@RequestBody Client client) { 
 		Client c = conseillerService.recupererClientParId(client.getId());
 		Long idCons = c.getConseiller().getId();
