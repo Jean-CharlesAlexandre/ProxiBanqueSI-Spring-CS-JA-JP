@@ -6,6 +6,9 @@ import org.formation.entity.Client;
 import org.formation.entity.Conseiller;
 import org.formation.service.ConseillerService;
 import org.formation.service.GerantService;
+import org.formation.service.GerantServiceImpl;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -16,14 +19,17 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 @CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/clients")
-public class RestConseillerContoller {
+public class RestConseillerController {
 
+	private static final Logger LOGGER = LoggerFactory.getLogger(RestConseillerController.class);
+	
 	@Autowired
 	ConseillerService conseillerService;
 	
@@ -32,8 +38,12 @@ public class RestConseillerContoller {
 
 	@ResponseStatus(code = HttpStatus.CREATED)
 	@PostMapping("/{idCons}")
-	public Client createClient(@PathVariable("id") Long idCons, @RequestBody Client client) {
-		conseillerService.creerClient(client);
+	public Client createClient(@PathVariable("idCons") Long idCons, @RequestBody Client client) {
+		Conseiller cons = gerantService.recupererConseillerParId(idCons);
+		Client c = client;
+		c.setConseiller(cons);
+		cons.getListeClients().add(c);
+		gerantService.creerConseiller(cons);
 		return client;
 	}
 
@@ -42,22 +52,22 @@ public class RestConseillerContoller {
 		return conseillerService.recupererClientParId(id);
 	}
 
-	@ResponseStatus(code = HttpStatus.I_AM_A_TEAPOT)
+	@ResponseBody
 	@DeleteMapping("/{id}")
-	public Client deleteClient(@PathVariable("id") Long id) {
+	public void deleteClient(@PathVariable("id") Long id) {
 		Client client = conseillerService.recupererClientParId(id);
 		conseillerService.supprimerClient(client);
-		return client;
 	}
 
 	@ResponseStatus(code = HttpStatus.CREATED)
 	@PutMapping("/{id}")
 	public Client updateClient(@RequestBody Client client) { 
-//		Client c = conseillerService.recupererClientParId(client.getId());
-//		Long idCons = c.getConseiller().getId();
-//		Conseiller cons = gerantService.recupererConseillerParId(idCons);
-//		client.setConseiller(cons);
-		return conseillerService.modifierClient(client);
+		Client c = conseillerService.recupererClientParId(client.getId());
+		Long idCons = c.getConseiller().getId();
+		Conseiller cons = gerantService.recupererConseillerParId(idCons);
+		client.setConseiller(cons);
+		conseillerService.modifierClient(client);
+		return client;
 }
 
 	@GetMapping
