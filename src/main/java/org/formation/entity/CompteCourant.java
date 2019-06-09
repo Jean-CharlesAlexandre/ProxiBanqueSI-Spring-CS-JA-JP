@@ -10,7 +10,7 @@ public class CompteCourant extends Compte {
 
 	private int AUTORISATIONDECOUVERT = 1000;
 
-	@OneToOne(cascade = { CascadeType.PERSIST, CascadeType.REMOVE })
+	@OneToOne(cascade = { CascadeType.PERSIST, CascadeType.REMOVE, CascadeType.MERGE })
 	@JoinColumn(name = "CB_id")
 	private CarteBancaire carteBancaire;
 
@@ -20,7 +20,7 @@ public class CompteCourant extends Compte {
 		this.carteBancaire = carteBancaire;
 		autorisationDecouvert = this.getAutorisationdecouvert();
 	}
-	
+
 	public CompteCourant(Long numCompte, String dateOuverture, Double solde, CarteBancaire carteBancaire) {
 		super(numCompte, dateOuverture, solde);
 		this.carteBancaire = carteBancaire;

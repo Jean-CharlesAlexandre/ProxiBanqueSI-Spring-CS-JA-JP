@@ -1,0 +1,592 @@
+10:21:23.671 382  [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- Starting ProxiBanqueSiSpringCsJaJpApplication on Mambo33 with PID 15984 (C:\Users\Adminl\workspaceJeanCharlesSTS\ProxiBanqueSI-Spring-CS-JA-JP\target\classes started by Adminl in C:\Users\Adminl\workspaceJeanCharlesSTS\ProxiBanqueSI-Spring-CS-JA-JP)
+10:21:23.675 386  [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- No active profile set, falling back to default profiles: default
+10:21:24.100 811  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Bootstrapping Spring Data repositories in DEFAULT mode.
+10:21:24.164 875  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Finished Spring Data repository scanning in 59ms. Found 12 repository interfaces.
+10:21:24.336 1047 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a98551ad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:21:24.485 1196 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				- Tomcat initialized with port(s): 8080 (http)
+10:21:24.495 1206 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Initializing ProtocolHandler ["http-nio-8080"]
+10:21:24.502 1213 [main] INFO  o.a.catalina.core.StandardService
+				- Starting service [Tomcat]
+10:21:24.503 1214 [main] INFO  o.a.catalina.core.StandardEngine
+				- Starting Servlet engine: [Apache Tomcat/9.0.19]
+10:21:24.686 1397 [main] INFO  o.apache.jasper.servlet.TldScanner
+				- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10:21:24.692 1403 [main] INFO  o.a.c.c.C.[.[.[/ProxiBanqueSI]
+				- Initializing Spring embedded WebApplicationContext
+10:21:24.693 1404 [main] INFO  o.s.web.context.ContextLoader
+				- Root WebApplicationContext: initialization completed in 987 ms
+10:21:24.798 1509 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: default]
+10:21:24.833 1544 [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+10:21:24.901 1612 [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+10:21:24.953 1664 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Starting...
+10:21:25.049 1760 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Start completed.
+10:21:25.055 1766 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+10:21:25.680 2391 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:21:25.681 2392 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Initialized JPA EntityManagerFactory for persistence unit 'default'
+10:21:25.900 2611 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+				- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10:21:26.080 2791 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Initializing ExecutorService 'applicationTaskExecutor'
+10:21:26.190 2901 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Starting ProtocolHandler ["http-nio-8080"]
+10:21:26.209 2920 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				- Tomcat started on port(s): 8080 (http) with context path '/ProxiBanqueSI'
+10:21:26.211 2922 [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- Started ProxiBanqueSiSpringCsJaJpApplication in 2.712 seconds (JVM running for 3.383)
+10:21:45.723 22434 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/ProxiBanqueSI]
+				- Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:21:45.724 22435 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				- Initializing Servlet 'dispatcherServlet'
+10:21:45.730 22441 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				- Completed initialization in 6 ms
+10:21:45.751 22462 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 22 a été récupéré
+10:22:24.858 61569 [RMI TCP Connection(11)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin
+				- Application shutdown requested.
+10:22:24.860 61571 [RMI TCP Connection(11)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Shutting down ExecutorService 'applicationTaskExecutor'
+10:22:24.862 61573 [RMI TCP Connection(11)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Closing JPA EntityManagerFactory for persistence unit 'default'
+10:22:24.865 61576 [RMI TCP Connection(11)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown initiated...
+10:22:24.872 61583 [RMI TCP Connection(11)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown completed.
+10:22:28.796 340  [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- Starting ProxiBanqueSiSpringCsJaJpApplication on Mambo33 with PID 8260 (C:\Users\Adminl\workspaceJeanCharlesSTS\ProxiBanqueSI-Spring-CS-JA-JP\target\classes started by Adminl in C:\Users\Adminl\workspaceJeanCharlesSTS\ProxiBanqueSI-Spring-CS-JA-JP)
+10:22:28.798 342  [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- No active profile set, falling back to default profiles: default
+10:22:29.219 763  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Bootstrapping Spring Data repositories in DEFAULT mode.
+10:22:29.285 829  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Finished Spring Data repository scanning in 62ms. Found 12 repository interfaces.
+10:22:29.445 989  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$14f03da7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:22:29.603 1147 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				- Tomcat initialized with port(s): 8080 (http)
+10:22:29.613 1157 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Initializing ProtocolHandler ["http-nio-8080"]
+10:22:29.621 1165 [main] INFO  o.a.catalina.core.StandardService
+				- Starting service [Tomcat]
+10:22:29.621 1165 [main] INFO  o.a.catalina.core.StandardEngine
+				- Starting Servlet engine: [Apache Tomcat/9.0.19]
+10:22:29.799 1343 [main] INFO  o.apache.jasper.servlet.TldScanner
+				- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10:22:29.805 1349 [main] INFO  o.a.c.c.C.[.[.[/ProxiBanqueSI]
+				- Initializing Spring embedded WebApplicationContext
+10:22:29.806 1350 [main] INFO  o.s.web.context.ContextLoader
+				- Root WebApplicationContext: initialization completed in 980 ms
+10:22:29.916 1460 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: default]
+10:22:29.950 1494 [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+10:22:30.018 1562 [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+10:22:30.071 1615 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Starting...
+10:22:30.165 1709 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Start completed.
+10:22:30.173 1717 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+10:22:30.788 2332 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:22:30.789 2333 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Initialized JPA EntityManagerFactory for persistence unit 'default'
+10:22:31.003 2547 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+				- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10:22:31.177 2721 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Initializing ExecutorService 'applicationTaskExecutor'
+10:22:31.286 2830 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Starting ProtocolHandler ["http-nio-8080"]
+10:22:31.305 2849 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				- Tomcat started on port(s): 8080 (http) with context path '/ProxiBanqueSI'
+10:22:31.307 2851 [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- Started ProxiBanqueSiSpringCsJaJpApplication in 2.68 seconds (JVM running for 3.2)
+10:22:35.918 7462 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/ProxiBanqueSI]
+				- Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:22:35.919 7463 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				- Initializing Servlet 'dispatcherServlet'
+10:22:35.924 7468 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				- Completed initialization in 5 ms
+10:22:35.990 7534 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 22 a été modifié
+10:22:36.053 7597 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]
+				- Servlet.service() for servlet [dispatcherServlet] in context with path [/ProxiBanqueSI] threw exception [Request processing failed; nested exception is org.springframework.orm.ObjectRetrievalFailureException: Object [id=null] was not of the specified subclass [org.formation.entity.Client] : class of the given object did not match class of persistent copy; nested exception is org.hibernate.WrongClassException: Object [id=null] was not of the specified subclass [org.formation.entity.Client] : class of the given object did not match class of persistent copy] with root cause
+org.hibernate.WrongClassException: Object [id=null] was not of the specified subclass [org.formation.entity.Client] : class of the given object did not match class of persistent copy
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:294)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:151)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:65)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:905)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:891)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:350)
+	at com.sun.proxy.$Proxy91.merge(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:308)
+	at com.sun.proxy.$Proxy91.merge(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:519)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:359)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:200)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:641)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:605)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$invoke$3(RepositoryFactorySupport.java:592)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:592)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:345)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy103.save(Unknown Source)
+	at org.formation.service.ConseillerServiceImpl.modifierClient(ConseillerServiceImpl.java:38)
+	at org.formation.controller.RestConseillerContoller.updateClient(RestConseillerContoller.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:889)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:794)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:919)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:663)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+10:22:51.950 23494 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 22 a été modifié
+10:22:51.958 23502 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]
+				- Servlet.service() for servlet [dispatcherServlet] in context with path [/ProxiBanqueSI] threw exception [Request processing failed; nested exception is org.springframework.orm.ObjectRetrievalFailureException: Object [id=null] was not of the specified subclass [org.formation.entity.Client] : class of the given object did not match class of persistent copy; nested exception is org.hibernate.WrongClassException: Object [id=null] was not of the specified subclass [org.formation.entity.Client] : class of the given object did not match class of persistent copy] with root cause
+org.hibernate.WrongClassException: Object [id=null] was not of the specified subclass [org.formation.entity.Client] : class of the given object did not match class of persistent copy
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:294)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:151)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:65)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:905)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:891)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:350)
+	at com.sun.proxy.$Proxy91.merge(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:308)
+	at com.sun.proxy.$Proxy91.merge(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:519)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:359)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:200)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:641)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:605)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$invoke$3(RepositoryFactorySupport.java:592)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:592)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:345)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy103.save(Unknown Source)
+	at org.formation.service.ConseillerServiceImpl.modifierClient(ConseillerServiceImpl.java:38)
+	at org.formation.controller.RestConseillerContoller.updateClient(RestConseillerContoller.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:889)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:794)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:919)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:663)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+10:24:59.678 151222 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 23 a été récupéré
+10:24:59.706 151250 [http-nio-8080-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]
+				- Servlet.service() for servlet [dispatcherServlet] in context with path [/ProxiBanqueSI] threw exception [Request processing failed; nested exception is java.util.NoSuchElementException: No value present] with root cause
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:148)
+	at org.formation.service.ConseillerServiceImpl.recupererClientParId(ConseillerServiceImpl.java:31)
+	at org.formation.controller.RestConseillerContoller.getClient(RestConseillerContoller.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:889)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:794)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+10:25:02.859 154403 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 22 a été récupéré
+10:25:31.243 182787 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 27 a été créé
+10:26:07.026 218570 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 27 a été modifié
+10:26:17.676 229220 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 27 a été modifié
+10:33:37.966 669510 [RMI TCP Connection(30)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin
+				- Application shutdown requested.
+10:33:37.969 669513 [RMI TCP Connection(30)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Shutting down ExecutorService 'applicationTaskExecutor'
+10:33:37.972 669516 [RMI TCP Connection(30)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Closing JPA EntityManagerFactory for persistence unit 'default'
+10:33:37.974 669518 [RMI TCP Connection(30)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown initiated...
+10:33:37.980 669524 [RMI TCP Connection(30)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown completed.
+10:33:41.912 340  [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- Starting ProxiBanqueSiSpringCsJaJpApplication on Mambo33 with PID 3992 (C:\Users\Adminl\workspaceJeanCharlesSTS\ProxiBanqueSI-Spring-CS-JA-JP\target\classes started by Adminl in C:\Users\Adminl\workspaceJeanCharlesSTS\ProxiBanqueSI-Spring-CS-JA-JP)
+10:33:41.913 341  [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- No active profile set, falling back to default profiles: default
+10:33:42.325 753  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Bootstrapping Spring Data repositories in DEFAULT mode.
+10:33:42.385 813  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Finished Spring Data repository scanning in 55ms. Found 10 repository interfaces.
+10:33:42.545 973  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bc898f44] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:33:42.701 1129 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				- Tomcat initialized with port(s): 8080 (http)
+10:33:42.714 1142 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Initializing ProtocolHandler ["http-nio-8080"]
+10:33:42.723 1151 [main] INFO  o.a.catalina.core.StandardService
+				- Starting service [Tomcat]
+10:33:42.723 1151 [main] INFO  o.a.catalina.core.StandardEngine
+				- Starting Servlet engine: [Apache Tomcat/9.0.19]
+10:33:42.903 1331 [main] INFO  o.apache.jasper.servlet.TldScanner
+				- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10:33:42.909 1337 [main] INFO  o.a.c.c.C.[.[.[/ProxiBanqueSI]
+				- Initializing Spring embedded WebApplicationContext
+10:33:42.909 1337 [main] INFO  o.s.web.context.ContextLoader
+				- Root WebApplicationContext: initialization completed in 967 ms
+10:33:43.014 1442 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: default]
+10:33:43.049 1477 [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+10:33:43.119 1547 [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+10:33:43.168 1596 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Starting...
+10:33:43.266 1694 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Start completed.
+10:33:43.272 1700 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+10:33:50.514 8942 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:33:50.519 8947 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Initialized JPA EntityManagerFactory for persistence unit 'default'
+10:33:50.779 9207 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+				- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10:33:50.933 9361 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Initializing ExecutorService 'applicationTaskExecutor'
+10:33:51.043 9471 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Starting ProtocolHandler ["http-nio-8080"]
+10:33:51.062 9490 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				- Tomcat started on port(s): 8080 (http) with context path '/ProxiBanqueSI'
+10:33:51.064 9492 [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- Started ProxiBanqueSiSpringCsJaJpApplication in 9.321 seconds (JVM running for 9.842)
+10:34:00.004 18432 [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin
+				- Application shutdown requested.
+10:34:00.007 18435 [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Shutting down ExecutorService 'applicationTaskExecutor'
+10:34:00.008 18436 [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Closing JPA EntityManagerFactory for persistence unit 'default'
+10:34:00.009 18437 [RMI TCP Connection(8)-127.0.0.1] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl
+				- HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+10:34:01.277 19705 [RMI TCP Connection(8)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown initiated...
+10:34:01.294 19722 [RMI TCP Connection(8)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown completed.
+10:34:05.185 350  [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- Starting ProxiBanqueSiSpringCsJaJpApplication on Mambo33 with PID 13428 (C:\Users\Adminl\workspaceJeanCharlesSTS\ProxiBanqueSI-Spring-CS-JA-JP\target\classes started by Adminl in C:\Users\Adminl\workspaceJeanCharlesSTS\ProxiBanqueSI-Spring-CS-JA-JP)
+10:34:05.187 352  [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- No active profile set, falling back to default profiles: default
+10:34:05.625 790  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Bootstrapping Spring Data repositories in DEFAULT mode.
+10:34:05.688 853  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Finished Spring Data repository scanning in 57ms. Found 10 repository interfaces.
+10:34:05.843 1008 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b764671c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:34:06.003 1168 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				- Tomcat initialized with port(s): 8080 (http)
+10:34:06.014 1179 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Initializing ProtocolHandler ["http-nio-8080"]
+10:34:06.021 1186 [main] INFO  o.a.catalina.core.StandardService
+				- Starting service [Tomcat]
+10:34:06.021 1186 [main] INFO  o.a.catalina.core.StandardEngine
+				- Starting Servlet engine: [Apache Tomcat/9.0.19]
+10:34:06.195 1360 [main] INFO  o.apache.jasper.servlet.TldScanner
+				- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10:34:06.202 1367 [main] INFO  o.a.c.c.C.[.[.[/ProxiBanqueSI]
+				- Initializing Spring embedded WebApplicationContext
+10:34:06.202 1367 [main] INFO  o.s.web.context.ContextLoader
+				- Root WebApplicationContext: initialization completed in 986 ms
+10:34:06.321 1486 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: default]
+10:34:06.356 1521 [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+10:34:06.427 1592 [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+10:34:06.485 1650 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Starting...
+10:34:06.590 1755 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Start completed.
+10:34:06.596 1761 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+10:34:13.284 8449 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:34:13.290 8455 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Initialized JPA EntityManagerFactory for persistence unit 'default'
+10:34:13.545 8710 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+				- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10:34:13.699 8864 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Initializing ExecutorService 'applicationTaskExecutor'
+10:34:13.810 8975 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Starting ProtocolHandler ["http-nio-8080"]
+10:34:13.829 8994 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				- Tomcat started on port(s): 8080 (http) with context path '/ProxiBanqueSI'
+10:34:13.831 8996 [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- Started ProxiBanqueSiSpringCsJaJpApplication in 8.819 seconds (JVM running for 9.347)
+10:34:26.488 196  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.formation.ProxiBanqueSiSpringCsJaJpApplicationTests], using SpringBootContextLoader
+10:34:26.494 202  [main] INFO  o.s.t.c.s.AbstractContextLoader
+				- Could not detect default resource locations for test class [org.formation.ProxiBanqueSiSpringCsJaJpApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+10:34:26.494 202  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils
+				- Could not detect default configuration classes for test class [org.formation.ProxiBanqueSiSpringCsJaJpApplicationTests]: ProxiBanqueSiSpringCsJaJpApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:34:26.576 284  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Found @SpringBootConfiguration org.formation.ProxiBanqueSiSpringCsJaJpApplication for test class org.formation.ProxiBanqueSiSpringCsJaJpApplicationTests
+10:34:26.651 359  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+10:34:26.665 373  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@53f6fd09, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6bffbc6d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b84f475, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7749bf93, org.springframework.test.context.support.DirtiesContextTestExecutionListener@13330ac6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@539d019, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@39a2bb97, org.springframework.test.context.event.EventPublishingTestExecutionListener@3ad2e17, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@8c3619e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4331d187, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6f63b475, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@554e218, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1608bcbd]
+10:34:26.891 599  [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplicationTests
+				- Starting ProxiBanqueSiSpringCsJaJpApplicationTests on Mambo33 with PID 2160 (started by Adminl in C:\Users\Adminl\workspaceJeanCharlesSTS\ProxiBanqueSI-Spring-CS-JA-JP)
+10:34:26.891 599  [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplicationTests
+				- No active profile set, falling back to default profiles: default
+10:34:27.563 1271 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Bootstrapping Spring Data repositories in DEFAULT mode.
+10:34:27.672 1380 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Finished Spring Data repository scanning in 102ms. Found 10 repository interfaces.
+10:34:27.972 1680 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$776395cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:34:28.258 1966 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: default]
+10:34:28.335 2043 [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+10:34:28.476 2184 [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+10:34:28.564 2272 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Starting...
+10:34:28.717 2425 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Start completed.
+10:34:28.729 2437 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+10:34:29.547 3255 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:34:29.549 3257 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Initialized JPA EntityManagerFactory for persistence unit 'default'
+10:34:30.161 3869 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+				- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10:34:30.564 4272 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Initializing ExecutorService 'applicationTaskExecutor'
+10:34:30.986 4694 [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplicationTests
+				- Started ProxiBanqueSiSpringCsJaJpApplicationTests in 4.294 seconds (JVM running for 5.099)
+10:34:32.954 6662 [Thread-1] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Shutting down ExecutorService 'applicationTaskExecutor'
+10:34:32.958 6666 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Closing JPA EntityManagerFactory for persistence unit 'default'
+10:34:32.960 6668 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown initiated...
+10:34:32.973 6681 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown completed.
+10:34:52.220 47385 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/ProxiBanqueSI]
+				- Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:34:52.221 47386 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				- Initializing Servlet 'dispatcherServlet'
+10:34:52.228 47393 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				- Completed initialization in 7 ms
+10:34:52.253 47418 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 22 a été récupéré
+10:35:21.251 76416 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 22 a été modifié
+10:40:49.940 405105 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 22 a été modifié
