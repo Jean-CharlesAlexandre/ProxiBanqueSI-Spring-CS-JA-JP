@@ -1142,3 +1142,497 @@ java.util.NoSuchElementException: No value present
 				- Client d'id 3 a été récupéré
 11:40:23.595 1696849 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
 				- Conseiller d'id 2 a été récupéré
+15:40:32.719 16105973 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+15:40:33.938 16107192 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+15:40:33.938 16107192 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 3 a été récupéré
+15:40:44.435 16117689 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+15:40:45.504 16118758 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+15:40:47.176 16120430 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+15:40:48.315 16121569 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+15:40:48.989 16122243 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+15:40:49.877 16123131 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+15:40:49.877 16123131 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 7 a été récupéré
+15:40:51.380 16124634 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+15:40:52.165 16125419 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 13 a été récupéré
+15:40:52.166 16125420 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+15:40:53.740 16126994 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+15:41:24.402 16157656 [RMI TCP Connection(551)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin
+				- Application shutdown requested.
+15:41:24.405 16157659 [RMI TCP Connection(551)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Shutting down ExecutorService 'applicationTaskExecutor'
+15:41:24.407 16157661 [RMI TCP Connection(551)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Closing JPA EntityManagerFactory for persistence unit 'default'
+15:41:24.409 16157663 [RMI TCP Connection(551)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown initiated...
+15:41:24.412 16157666 [RMI TCP Connection(551)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown completed.
+15:42:08.749 378  [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- Starting ProxiBanqueSiSpringCsJaJpApplication on Mambo33 with PID 6604 (C:\Users\Adminl\workspaceJeanCharlesSTS\ProxiBanqueSI-Spring-CS-JA-JP\target\classes started by Adminl in C:\Users\Adminl\workspaceJeanCharlesSTS\ProxiBanqueSI-Spring-CS-JA-JP)
+15:42:08.752 381  [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- No active profile set, falling back to default profiles: default
+15:42:09.173 802  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Bootstrapping Spring Data repositories in DEFAULT mode.
+15:42:09.235 864  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Finished Spring Data repository scanning in 57ms. Found 10 repository interfaces.
+15:42:09.395 1024 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7b652853] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:42:09.548 1177 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				- Tomcat initialized with port(s): 8080 (http)
+15:42:09.558 1187 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Initializing ProtocolHandler ["http-nio-8080"]
+15:42:09.564 1193 [main] INFO  o.a.catalina.core.StandardService
+				- Starting service [Tomcat]
+15:42:09.565 1194 [main] INFO  o.a.catalina.core.StandardEngine
+				- Starting Servlet engine: [Apache Tomcat/9.0.19]
+15:42:09.736 1365 [main] INFO  o.apache.jasper.servlet.TldScanner
+				- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15:42:09.743 1372 [main] INFO  o.a.c.c.C.[.[.[/ProxiBanqueSI]
+				- Initializing Spring embedded WebApplicationContext
+15:42:09.743 1372 [main] INFO  o.s.web.context.ContextLoader
+				- Root WebApplicationContext: initialization completed in 956 ms
+15:42:09.856 1485 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: default]
+15:42:09.892 1521 [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+15:42:09.962 1591 [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+15:42:10.016 1645 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Starting...
+15:42:10.111 1740 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Start completed.
+15:42:10.117 1746 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+15:42:17.973 9602 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:42:17.979 9608 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Initialized JPA EntityManagerFactory for persistence unit 'default'
+15:42:18.269 9898 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+				- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15:42:18.390 10019 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Initializing ExecutorService 'applicationTaskExecutor'
+15:42:18.505 10134 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Starting ProtocolHandler ["http-nio-8080"]
+15:42:18.524 10153 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				- Tomcat started on port(s): 8080 (http) with context path '/ProxiBanqueSI'
+15:42:18.526 10155 [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- Started ProxiBanqueSiSpringCsJaJpApplication in 9.978 seconds (JVM running for 10.598)
+15:42:28.142 19771 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin
+				- Application shutdown requested.
+15:42:28.144 19773 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Shutting down ExecutorService 'applicationTaskExecutor'
+15:42:28.146 19775 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Closing JPA EntityManagerFactory for persistence unit 'default'
+15:42:28.146 19775 [RMI TCP Connection(6)-127.0.0.1] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl
+				- HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+15:42:29.052 20681 [RMI TCP Connection(6)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown initiated...
+15:42:29.083 20712 [RMI TCP Connection(6)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown completed.
+15:42:33.224 338  [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- Starting ProxiBanqueSiSpringCsJaJpApplication on Mambo33 with PID 8908 (C:\Users\Adminl\workspaceJeanCharlesSTS\ProxiBanqueSI-Spring-CS-JA-JP\target\classes started by Adminl in C:\Users\Adminl\workspaceJeanCharlesSTS\ProxiBanqueSI-Spring-CS-JA-JP)
+15:42:33.226 340  [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- No active profile set, falling back to default profiles: default
+15:42:33.644 758  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Bootstrapping Spring Data repositories in DEFAULT mode.
+15:42:33.705 819  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Finished Spring Data repository scanning in 57ms. Found 10 repository interfaces.
+15:42:33.869 983  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$14f03da7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:42:34.021 1135 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				- Tomcat initialized with port(s): 8080 (http)
+15:42:34.031 1145 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Initializing ProtocolHandler ["http-nio-8080"]
+15:42:34.038 1152 [main] INFO  o.a.catalina.core.StandardService
+				- Starting service [Tomcat]
+15:42:34.038 1152 [main] INFO  o.a.catalina.core.StandardEngine
+				- Starting Servlet engine: [Apache Tomcat/9.0.19]
+15:42:34.215 1329 [main] INFO  o.apache.jasper.servlet.TldScanner
+				- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15:42:34.222 1336 [main] INFO  o.a.c.c.C.[.[.[/ProxiBanqueSI]
+				- Initializing Spring embedded WebApplicationContext
+15:42:34.222 1336 [main] INFO  o.s.web.context.ContextLoader
+				- Root WebApplicationContext: initialization completed in 968 ms
+15:42:34.340 1454 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: default]
+15:42:34.374 1488 [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+15:42:34.442 1556 [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+15:42:34.494 1608 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Starting...
+15:42:34.600 1714 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Start completed.
+15:42:34.607 1721 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+15:42:41.006 8120 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:42:41.012 8126 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Initialized JPA EntityManagerFactory for persistence unit 'default'
+15:42:41.311 8425 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+				- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15:42:41.428 8542 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Initializing ExecutorService 'applicationTaskExecutor'
+15:42:41.556 8670 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Starting ProtocolHandler ["http-nio-8080"]
+15:42:41.576 8690 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				- Tomcat started on port(s): 8080 (http) with context path '/ProxiBanqueSI'
+15:42:41.579 8693 [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- Started ProxiBanqueSiSpringCsJaJpApplication in 8.523 seconds (JVM running for 9.054)
+15:43:03.596 212  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.formation.ProxiBanqueSiSpringCsJaJpApplicationTests], using SpringBootContextLoader
+15:43:03.601 217  [main] INFO  o.s.t.c.s.AbstractContextLoader
+				- Could not detect default resource locations for test class [org.formation.ProxiBanqueSiSpringCsJaJpApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:43:03.602 218  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils
+				- Could not detect default configuration classes for test class [org.formation.ProxiBanqueSiSpringCsJaJpApplicationTests]: ProxiBanqueSiSpringCsJaJpApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:43:03.692 308  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Found @SpringBootConfiguration org.formation.ProxiBanqueSiSpringCsJaJpApplication for test class org.formation.ProxiBanqueSiSpringCsJaJpApplicationTests
+15:43:03.778 394  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+15:43:03.798 414  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+				- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@53f6fd09, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6bffbc6d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b84f475, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7749bf93, org.springframework.test.context.support.DirtiesContextTestExecutionListener@13330ac6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@539d019, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@39a2bb97, org.springframework.test.context.event.EventPublishingTestExecutionListener@3ad2e17, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@8c3619e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4331d187, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6f63b475, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@554e218, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1608bcbd]
+15:43:04.064 680  [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplicationTests
+				- Starting ProxiBanqueSiSpringCsJaJpApplicationTests on Mambo33 with PID 15440 (started by Adminl in C:\Users\Adminl\workspaceJeanCharlesSTS\ProxiBanqueSI-Spring-CS-JA-JP)
+15:43:04.066 682  [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplicationTests
+				- No active profile set, falling back to default profiles: default
+15:43:04.797 1413 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Bootstrapping Spring Data repositories in DEFAULT mode.
+15:43:04.902 1518 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Finished Spring Data repository scanning in 99ms. Found 10 repository interfaces.
+15:43:05.223 1839 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$776395cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:43:05.483 2099 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: default]
+15:43:05.541 2157 [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+15:43:05.663 2279 [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+15:43:05.856 2472 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Starting...
+15:43:06.006 2622 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Start completed.
+15:43:06.018 2634 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+15:43:06.884 3500 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:43:06.886 3502 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Initialized JPA EntityManagerFactory for persistence unit 'default'
+15:43:07.637 4253 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+				- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15:43:07.995 4611 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Initializing ExecutorService 'applicationTaskExecutor'
+15:43:08.414 5030 [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplicationTests
+				- Started ProxiBanqueSiSpringCsJaJpApplicationTests in 4.578 seconds (JVM running for 5.508)
+15:43:10.272 6888 [Thread-1] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Shutting down ExecutorService 'applicationTaskExecutor'
+15:43:10.275 6891 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Closing JPA EntityManagerFactory for persistence unit 'default'
+15:43:10.277 6893 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown initiated...
+15:43:10.287 6903 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown completed.
+15:43:57.248 84362 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/ProxiBanqueSI]
+				- Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:43:57.250 84364 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				- Initializing Servlet 'dispatcherServlet'
+15:43:57.256 84370 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				- Completed initialization in 6 ms
+15:43:57.292 84406 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+15:43:59.914 87028 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+15:43:59.924 87038 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+15:44:01.327 88441 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+15:44:02.534 89648 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+15:44:03.349 90463 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+15:44:04.084 91198 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+15:44:04.084 91198 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+15:44:04.599 91713 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+15:44:05.983 93097 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+15:44:07.213 94327 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+15:44:07.213 94327 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+15:44:07.744 94858 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+15:44:13.335 100449 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+15:44:14.615 101729 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+15:44:14.615 101729 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 3 a été récupéré
+15:44:16.621 103735 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+15:44:17.429 104543 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 7 a été récupéré
+15:44:17.429 104543 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+15:44:18.363 105477 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+15:44:18.972 106086 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+15:44:18.972 106086 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 10 a été récupéré
+15:44:19.988 107102 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+15:44:20.764 107878 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 13 a été récupéré
+15:44:20.764 107878 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+15:44:21.967 109081 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+15:44:24.189 111303 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+15:44:25.223 112337 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+15:44:26.629 113743 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+15:44:32.997 120111 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:44:34.189 121303 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+15:44:34.189 121303 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:44:35.771 122885 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:44:36.899 124013 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 17 a été récupéré
+15:44:36.899 124013 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:44:38.846 125960 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 17 a été récupéré
+15:44:38.846 125960 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:44:40.685 127799 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:44:40.685 127799 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 17 a été récupéré
+15:44:41.835 128949 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:44:42.682 129796 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 19 a été récupéré
+15:44:42.682 129796 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:44:44.693 131807 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:44:44.693 131807 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 19 a été récupéré
+15:44:46.445 133559 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 19 a été récupéré
+15:44:46.445 133559 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:44:48.416 135530 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:44:51.612 138726 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:44:52.700 139814 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:44:55.563 142677 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:46:24.052 231166 [RMI TCP Connection(14)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin
+				- Application shutdown requested.
+15:46:24.055 231169 [RMI TCP Connection(14)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Shutting down ExecutorService 'applicationTaskExecutor'
+15:46:24.056 231170 [RMI TCP Connection(14)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Closing JPA EntityManagerFactory for persistence unit 'default'
+15:46:24.058 231172 [RMI TCP Connection(14)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown initiated...
+15:46:24.065 231179 [RMI TCP Connection(14)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown completed.
+15:46:28.163 342  [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- Starting ProxiBanqueSiSpringCsJaJpApplication on Mambo33 with PID 6940 (C:\Users\Adminl\workspaceJeanCharlesSTS\ProxiBanqueSI-Spring-CS-JA-JP\target\classes started by Adminl in C:\Users\Adminl\workspaceJeanCharlesSTS\ProxiBanqueSI-Spring-CS-JA-JP)
+15:46:28.165 344  [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- No active profile set, falling back to default profiles: default
+15:46:28.594 773  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Bootstrapping Spring Data repositories in DEFAULT mode.
+15:46:28.656 835  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Finished Spring Data repository scanning in 57ms. Found 10 repository interfaces.
+15:46:28.825 1004 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8258eb25] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:46:28.980 1159 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				- Tomcat initialized with port(s): 8080 (http)
+15:46:28.990 1169 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Initializing ProtocolHandler ["http-nio-8080"]
+15:46:28.998 1177 [main] INFO  o.a.catalina.core.StandardService
+				- Starting service [Tomcat]
+15:46:28.998 1177 [main] INFO  o.a.catalina.core.StandardEngine
+				- Starting Servlet engine: [Apache Tomcat/9.0.19]
+15:46:29.183 1362 [main] INFO  o.apache.jasper.servlet.TldScanner
+				- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15:46:29.190 1369 [main] INFO  o.a.c.c.C.[.[.[/ProxiBanqueSI]
+				- Initializing Spring embedded WebApplicationContext
+15:46:29.190 1369 [main] INFO  o.s.web.context.ContextLoader
+				- Root WebApplicationContext: initialization completed in 998 ms
+15:46:29.302 1481 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: default]
+15:46:29.341 1520 [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+15:46:29.414 1593 [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+15:46:29.466 1645 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Starting...
+15:46:29.569 1748 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Start completed.
+15:46:29.575 1754 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+15:46:30.243 2422 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:46:30.245 2424 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Initialized JPA EntityManagerFactory for persistence unit 'default'
+15:46:30.519 2698 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+				- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15:46:30.642 2821 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Initializing ExecutorService 'applicationTaskExecutor'
+15:46:30.757 2936 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Starting ProtocolHandler ["http-nio-8080"]
+15:46:30.778 2957 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				- Tomcat started on port(s): 8080 (http) with context path '/ProxiBanqueSI'
+15:46:30.780 2959 [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- Started ProxiBanqueSiSpringCsJaJpApplication in 2.783 seconds (JVM running for 3.315)
+15:46:34.375 6554 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/ProxiBanqueSI]
+				- Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:46:34.376 6555 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				- Initializing Servlet 'dispatcherServlet'
+15:46:34.382 6561 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				- Completed initialization in 6 ms
+15:46:34.411 6590 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+15:46:34.412 6591 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:46:35.981 8160 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:46:36.726 8905 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 17 a été récupéré
+15:46:36.726 8905 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:46:37.698 9877 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:46:38.524 10703 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 19 a été récupéré
+15:46:38.524 10703 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:46:39.555 11734 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:46:40.331 12510 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 22 a été récupéré
+15:46:40.331 12510 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:46:46.121 18300 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:46:46.867 19046 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 22 a été récupéré
+15:46:46.867 19046 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:46:47.811 19990 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:46:48.602 20781 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 22 a été récupéré
+15:46:48.602 20781 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:46:49.694 21873 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:46:49.694 21873 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 22 a été récupéré
+15:46:50.748 22927 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 22 a été récupéré
+15:46:50.748 22927 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:47:06.658 38837 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 22 a été récupéré
+15:47:06.659 38838 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:47:09.476 41655 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 22 a été modifié
+15:47:09.563 41742 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:47:20.139 52318 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+15:47:20.139 52318 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:47:21.290 53469 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:47:22.170 54349 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 17 a été récupéré
+15:47:22.170 54349 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:47:29.859 62038 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:47:29.859 62038 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 17 a été récupéré
+15:47:31.935 64114 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 17 a été modifié
+15:47:32.033 64212 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:47:33.875 66054 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+15:47:33.875 66054 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:47:38.075 70254 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:47:39.036 71215 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+15:47:39.036 71215 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:47:48.345 80524 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:47:49.458 81637 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:47:55.978 88157 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:48:00.078 92257 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:48:01.058 93237 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:48:02.326 94505 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:48:02.918 95097 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:59:25.589 777768 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:59:42.664 794843 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+15:59:42.664 794843 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:59:43.490 795669 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+15:59:43.490 795669 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+16:00:39.211 851390 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+16:00:41.184 853363 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+16:00:41.184 853363 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+16:00:42.070 854249 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+16:00:42.728 854907 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+16:00:44.311 856490 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+16:23:28.729 2220908 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 19 a été récupéré
+16:23:28.748 2220927 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+16:30:44.375 2656554 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré

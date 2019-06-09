@@ -56,4 +56,10 @@ public class GerantServiceImpl implements GerantService {
 		return gerantRepository.findById(id).get();
 	}
 
+	@Override
+	public Conseiller modifierConseiller(Conseiller conseiller) {
+		LOGGER.info("Conseiller d'id " + conseiller.getId() + " a été mis à jour !");
+		return consRepository.save(conseiller);
+	}
+
 }

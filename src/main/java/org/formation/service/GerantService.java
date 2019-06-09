@@ -13,6 +13,8 @@ public interface GerantService {
 
 	public List<Conseiller> recupererListeConseillers();
 	
+	public Conseiller modifierConseiller(Conseiller conseiller);
+	
 	public void creerGerant(Gerant gerant);
 	
 	public Gerant recupererGerantParId(Long id);

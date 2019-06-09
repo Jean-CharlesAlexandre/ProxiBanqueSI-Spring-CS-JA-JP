@@ -3,7 +3,9 @@ package org.formation.controller;
 import java.util.List;
 
 import org.formation.entity.Client;
+import org.formation.entity.Conseiller;
 import org.formation.service.ConseillerService;
+import org.formation.service.GerantService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -24,10 +26,13 @@ public class RestConseillerContoller {
 
 	@Autowired
 	ConseillerService conseillerService;
+	
+	@Autowired
+	GerantService gerantService;
 
 	@ResponseStatus(code = HttpStatus.CREATED)
-	@PostMapping
-	public Client createClient(@RequestBody Client client) {
+	@PostMapping("/{idCons}")
+	public Client createClient(@PathVariable("id") Long idCons, @RequestBody Client client) {
 		conseillerService.creerClient(client);
 		return client;
 	}
@@ -47,9 +52,13 @@ public class RestConseillerContoller {
 
 	@ResponseStatus(code = HttpStatus.CREATED)
 	@PutMapping("/{id}")
-	public Client updateClient(@RequestBody Client client) {
+	public Client updateClient(@RequestBody Client client) { 
+//		Client c = conseillerService.recupererClientParId(client.getId());
+//		Long idCons = c.getConseiller().getId();
+//		Conseiller cons = gerantService.recupererConseillerParId(idCons);
+//		client.setConseiller(cons);
 		return conseillerService.modifierClient(client);
-	}
+}
 
 	@GetMapping
 	public List<Client> getClients() {
