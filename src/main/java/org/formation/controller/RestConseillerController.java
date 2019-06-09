@@ -60,7 +60,7 @@ public class RestConseillerController {
 
 	@ResponseStatus(code = HttpStatus.CREATED)
 	@PutMapping("/{id}")
-	public Client updateClient(@RequestBody Client client) {
+	public Client updateClient(@RequestBody Client client) { 
 		Client c = conseillerService.recupererClientParId(client.getId());
 		Long idCons = c.getConseiller().getId();
 		Conseiller cons = gerantService.recupererConseillerParId(idCons);
