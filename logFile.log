@@ -590,3 +590,555 @@ java.util.NoSuchElementException: No value present
 				- Client d'id 22 a été modifié
 10:40:49.940 405105 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
 				- Client d'id 22 a été modifié
+10:50:16.059 971224 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+10:50:35.789 990954 [RMI TCP Connection(44)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin
+				- Application shutdown requested.
+10:50:35.791 990956 [RMI TCP Connection(44)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Shutting down ExecutorService 'applicationTaskExecutor'
+10:50:35.793 990958 [RMI TCP Connection(44)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Closing JPA EntityManagerFactory for persistence unit 'default'
+10:50:35.795 990960 [RMI TCP Connection(44)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown initiated...
+10:50:35.801 990966 [RMI TCP Connection(44)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown completed.
+10:50:39.927 362  [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- Starting ProxiBanqueSiSpringCsJaJpApplication on Mambo33 with PID 16840 (C:\Users\Adminl\workspaceJeanCharlesSTS\ProxiBanqueSI-Spring-CS-JA-JP\target\classes started by Adminl in C:\Users\Adminl\workspaceJeanCharlesSTS\ProxiBanqueSI-Spring-CS-JA-JP)
+10:50:39.929 364  [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- No active profile set, falling back to default profiles: default
+10:50:40.369 804  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Bootstrapping Spring Data repositories in DEFAULT mode.
+10:50:40.430 865  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Finished Spring Data repository scanning in 56ms. Found 10 repository interfaces.
+10:50:40.614 1049 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bbbbdd5e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:50:40.769 1204 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				- Tomcat initialized with port(s): 8080 (http)
+10:50:40.779 1214 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Initializing ProtocolHandler ["http-nio-8080"]
+10:50:40.787 1222 [main] INFO  o.a.catalina.core.StandardService
+				- Starting service [Tomcat]
+10:50:40.787 1222 [main] INFO  o.a.catalina.core.StandardEngine
+				- Starting Servlet engine: [Apache Tomcat/9.0.19]
+10:50:40.963 1398 [main] INFO  o.apache.jasper.servlet.TldScanner
+				- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10:50:40.971 1406 [main] INFO  o.a.c.c.C.[.[.[/ProxiBanqueSI]
+				- Initializing Spring embedded WebApplicationContext
+10:50:40.971 1406 [main] INFO  o.s.web.context.ContextLoader
+				- Root WebApplicationContext: initialization completed in 1012 ms
+10:50:41.085 1520 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: default]
+10:50:41.122 1557 [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+10:50:41.195 1630 [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+10:50:41.274 1709 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Starting...
+10:50:41.372 1807 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Start completed.
+10:50:41.378 1813 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+10:50:41.987 2422 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:50:41.989 2424 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Initialized JPA EntityManagerFactory for persistence unit 'default'
+10:50:42.208 2643 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+				- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10:50:42.368 2803 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Initializing ExecutorService 'applicationTaskExecutor'
+10:50:42.486 2921 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Starting ProtocolHandler ["http-nio-8080"]
+10:50:42.505 2940 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				- Tomcat started on port(s): 8080 (http) with context path '/ProxiBanqueSI'
+10:50:42.507 2942 [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- Started ProxiBanqueSiSpringCsJaJpApplication in 2.759 seconds (JVM running for 3.314)
+10:50:50.687 11122 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/ProxiBanqueSI]
+				- Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:50:50.687 11122 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				- Initializing Servlet 'dispatcherServlet'
+10:50:50.694 11129 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				- Completed initialization in 6 ms
+10:50:50.733 11168 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+10:50:52.884 13319 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+10:50:52.897 13332 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:50:54.108 14543 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+10:50:54.761 15196 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+10:50:54.769 15204 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+10:50:57.940 18375 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+10:50:59.985 20420 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+10:50:59.985 20420 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:51:00.831 21266 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+10:51:02.048 22483 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+10:51:02.887 23322 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+10:51:03.567 24002 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+10:51:04.183 24618 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+10:51:05.328 25763 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+10:51:05.328 25763 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+10:51:06.264 26699 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+10:51:07.327 27762 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+10:51:09.365 29800 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+10:51:09.937 30372 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+10:51:10.318 30753 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+10:51:10.703 31138 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+10:51:11.014 31449 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+10:51:12.110 32545 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+10:51:12.709 33144 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+10:51:13.237 33672 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+10:51:14.222 34657 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+10:51:14.222 34657 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:51:14.838 35273 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+10:51:15.903 36338 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+10:51:15.903 36338 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+10:51:16.767 37202 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+10:51:22.407 42842 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:51:23.793 44228 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:51:23.793 44228 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 3 a été récupéré
+10:51:24.470 44905 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:51:28.123 48558 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 3 a été récupéré
+10:51:28.123 48558 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:51:28.800 49235 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:51:30.352 50787 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:51:32.168 52603 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 3 a été récupéré
+10:51:32.168 52603 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:52:06.448 86883 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 3 a été récupéré
+10:52:06.449 86884 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:53:25.937 166372 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 3 a été récupéré
+10:53:25.937 166372 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:53:39.487 179922 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 3 a été récupéré
+10:53:39.493 179928 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:53:52.125 192560 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 3 a été récupéré
+10:53:52.126 192561 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:55:09.441 269876 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 3 a été récupéré
+10:55:09.441 269876 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:56:45.085 365520 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 3 a été récupéré
+10:56:45.086 365521 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:57:17.287 397722 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 3 a été récupéré
+10:57:17.288 397723 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:57:20.744 401179 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 3 a été récupéré
+10:57:20.745 401180 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:58:48.555 488990 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 3 a été récupéré
+10:58:48.555 488990 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:58:53.992 494427 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 3 a été récupéré
+10:58:53.992 494427 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:58:56.329 496764 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:58:57.705 498140 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:58:58.697 499132 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:58:59.886 500321 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:59:00.506 500941 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:59:00.985 501420 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:59:01.411 501846 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:59:01.910 502345 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:59:02.416 502851 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:59:03.055 503490 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:59:03.572 504007 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:59:04.223 504658 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:59:04.671 505106 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:59:05.257 505692 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+10:59:55.942 556377 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+11:01:35.189 655624 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:01:36.755 657190 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:01:37.452 657887 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:01:38.224 658659 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:01:38.875 659310 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:01:39.710 660145 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+11:01:39.711 660146 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:01:40.340 660775 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:01:41.252 661687 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 17 a été récupéré
+11:01:41.252 661687 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:01:41.849 662284 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:01:42.888 663323 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:01:43.707 664142 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:01:45.237 665672 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:01:45.237 665672 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+11:01:45.820 666255 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:01:47.794 668229 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:01:48.212 668647 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:01:51.501 671936 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:01:54.212 674647 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:01:55.526 675961 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 17 a été récupéré
+11:01:55.526 675961 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:01:57.079 677514 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 17 a été récupéré
+11:01:57.079 677514 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:01:58.049 678484 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:00.155 680590 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:01.104 681539 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+11:02:01.104 681539 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:01.804 682239 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+11:02:01.804 682239 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:02.368 682803 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:03.554 683989 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:04.198 684633 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 17 a été récupéré
+11:02:04.198 684633 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:05.318 685753 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 17 a été récupéré
+11:02:05.318 685753 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:06.188 686623 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:06.188 686623 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 17 a été récupéré
+11:02:14.636 695071 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 17 a été récupéré
+11:02:14.636 695071 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:16.232 696667 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 17 a été récupéré
+11:02:16.232 696667 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:25.436 705871 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:26.651 707086 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:27.981 708416 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+11:02:27.981 708416 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:28.581 709016 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:29.459 709894 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:29.459 709894 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+11:02:30.395 710830 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:30.962 711397 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:31.925 712360 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:31.925 712360 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+11:02:32.394 712829 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:32.880 713315 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:34.235 714670 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:34.898 715333 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+11:02:34.899 715334 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:35.426 715861 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:36.045 716480 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:54.096 734531 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:55.229 735664 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:56.390 736825 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+11:02:56.390 736825 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:57.652 738087 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:58.373 738808 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 17 a été récupéré
+11:02:58.373 738808 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:59.203 739638 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:02:59.915 740350 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 19 a été récupéré
+11:02:59.915 740350 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:03:01.313 741748 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:03:01.974 742409 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:03:26.756 767191 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:03:27.817 768252 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:03:30.312 770747 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:03:31.175 771610 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:03:39.182 779617 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:03:39.182 779617 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+11:03:39.905 780340 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:03:46.269 786704 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:03:47.493 787928 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:03:48.322 788757 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:04:02.978 803413 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:04:18.561 818996 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:04:27.204 827639 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+11:04:27.204 827639 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:04:29.795 830230 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+11:04:29.795 830230 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:04:35.743 836178 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+11:04:35.744 836179 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:09:02.211 1102646 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:09:02.211 1102646 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+11:09:03.832 1104267 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:09:03.832 1104267 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+11:09:22.915 1123350 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+11:09:22.916 1123351 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:10:59.418 1219853 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver
+				- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+11:12:03.093 1283528 [RMI TCP Connection(53)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin
+				- Application shutdown requested.
+11:12:03.095 1283530 [RMI TCP Connection(53)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Shutting down ExecutorService 'applicationTaskExecutor'
+11:12:03.097 1283532 [RMI TCP Connection(53)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Closing JPA EntityManagerFactory for persistence unit 'default'
+11:12:03.099 1283534 [RMI TCP Connection(53)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown initiated...
+11:12:03.105 1283540 [RMI TCP Connection(53)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Shutdown completed.
+11:12:07.101 355  [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- Starting ProxiBanqueSiSpringCsJaJpApplication on Mambo33 with PID 13448 (C:\Users\Adminl\workspaceJeanCharlesSTS\ProxiBanqueSI-Spring-CS-JA-JP\target\classes started by Adminl in C:\Users\Adminl\workspaceJeanCharlesSTS\ProxiBanqueSI-Spring-CS-JA-JP)
+11:12:07.103 357  [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- No active profile set, falling back to default profiles: default
+11:12:07.547 801  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Bootstrapping Spring Data repositories in DEFAULT mode.
+11:12:07.609 863  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				- Finished Spring Data repository scanning in 56ms. Found 10 repository interfaces.
+11:12:07.790 1044 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b1a21a65] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:12:07.943 1197 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				- Tomcat initialized with port(s): 8080 (http)
+11:12:07.954 1208 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Initializing ProtocolHandler ["http-nio-8080"]
+11:12:07.961 1215 [main] INFO  o.a.catalina.core.StandardService
+				- Starting service [Tomcat]
+11:12:07.961 1215 [main] INFO  o.a.catalina.core.StandardEngine
+				- Starting Servlet engine: [Apache Tomcat/9.0.19]
+11:12:08.144 1398 [main] INFO  o.apache.jasper.servlet.TldScanner
+				- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11:12:08.151 1405 [main] INFO  o.a.c.c.C.[.[.[/ProxiBanqueSI]
+				- Initializing Spring embedded WebApplicationContext
+11:12:08.151 1405 [main] INFO  o.s.web.context.ContextLoader
+				- Root WebApplicationContext: initialization completed in 1019 ms
+11:12:08.263 1517 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: default]
+11:12:08.298 1552 [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+11:12:08.368 1622 [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+11:12:08.421 1675 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Starting...
+11:12:08.517 1771 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				- HikariPool-1 - Start completed.
+11:12:08.523 1777 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+11:12:09.087 2341 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:12:09.089 2343 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				- Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:12:09.312 2566 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+				- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11:12:09.472 2726 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				- Initializing ExecutorService 'applicationTaskExecutor'
+11:12:09.594 2848 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Starting ProtocolHandler ["http-nio-8080"]
+11:12:09.614 2868 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				- Tomcat started on port(s): 8080 (http) with context path '/ProxiBanqueSI'
+11:12:09.616 2870 [main] INFO  o.f.ProxiBanqueSiSpringCsJaJpApplication
+				- Started ProxiBanqueSiSpringCsJaJpApplication in 2.693 seconds (JVM running for 3.237)
+11:12:14.181 7435 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/ProxiBanqueSI]
+				- Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:12:14.182 7436 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				- Initializing Servlet 'dispatcherServlet'
+11:12:14.188 7442 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				- Completed initialization in 6 ms
+11:12:14.228 7482 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:12:16.226 9480 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:12:16.227 9481 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+11:12:17.477 10731 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:12:17.477 10731 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été récupéré
+11:12:23.453 16707 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 15 a été modifié
+11:12:23.696 16950 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:12:29.767 23021 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:12:30.413 23667 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:14:14.380 127634 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 17 a été récupéré
+11:14:14.380 127634 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:14:19.570 132824 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:14:19.570 132824 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 17 a été récupéré
+11:16:32.458 265712 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:16:33.858 267112 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:16:33.858 267112 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 19 a été récupéré
+11:16:34.623 267877 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:16:41.095 274349 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 19 a été récupéré
+11:16:41.096 274350 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 17 a été récupéré
+11:23:03.174 656428 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:23:09.601 662855 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+11:23:11.269 664523 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+11:23:11.279 664533 [http-nio-8080-exec-4] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+11:23:12.878 666132 [http-nio-8080-exec-3] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+11:23:13.910 667164 [http-nio-8080-exec-5] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 26 a été récupéré
+11:23:13.910 667164 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+11:23:15.892 669146 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+11:23:17.455 670709 [http-nio-8080-exec-9] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+11:23:17.455 670709 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+11:23:19.085 672339 [http-nio-8080-exec-10] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+11:23:19.982 673236 [http-nio-8080-exec-1] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+11:23:20.925 674179 [http-nio-8080-exec-2] INFO  o.f.service.GerantServiceImpl
+				- Gerant d'id 1 a été récupéré
+11:40:22.438 1695692 [http-nio-8080-exec-6] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré
+11:40:23.595 1696849 [http-nio-8080-exec-7] INFO  o.f.service.GerantServiceImpl
+				- Client d'id 3 a été récupéré
+11:40:23.595 1696849 [http-nio-8080-exec-8] INFO  o.f.service.GerantServiceImpl
+				- Conseiller d'id 2 a été récupéré

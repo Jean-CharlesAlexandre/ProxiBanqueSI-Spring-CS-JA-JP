@@ -46,7 +46,7 @@ public class RestConseillerContoller {
 	}
 
 	@ResponseStatus(code = HttpStatus.CREATED)
-	@PutMapping
+	@PutMapping("/{id}")
 	public Client updateClient(@RequestBody Client client) {
 		return conseillerService.modifierClient(client);
 	}
