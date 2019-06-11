@@ -5,6 +5,13 @@ import javax.persistence.Entity;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 
+/**
+ * Classe Compte courant caractérisée par une carte bancaire et une autorisation
+ * de découvert. Cette classe hérite de la classe Compte.
+ * 
+ * @author Chloé & Jean-Charles & Jérémi
+ *
+ */
 @Entity
 public class CompteCourant extends Compte {
 

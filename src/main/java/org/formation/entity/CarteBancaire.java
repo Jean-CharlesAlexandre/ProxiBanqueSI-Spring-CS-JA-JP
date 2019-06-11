@@ -5,6 +5,12 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+/**
+ * Classe CB caractérisée par un id et un type de carte.
+ * 
+ * @author Chloé & Jean-Charles & Jérémi
+ *
+ */
 @Entity
 public class CarteBancaire {
 

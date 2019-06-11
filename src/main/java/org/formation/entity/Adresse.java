@@ -2,6 +2,13 @@ package org.formation.entity;
 
 import javax.persistence.Embeddable;
 
+/**
+ * Classe Adresse caractérisée par un numéro, une rue, un code postal et une
+ * ville.
+ * 
+ * @author Chloé & Jean-Charles & Jérémi
+ *
+ */
 @Embeddable
 public class Adresse {
 

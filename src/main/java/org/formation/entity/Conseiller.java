@@ -10,6 +10,13 @@ import javax.persistence.OneToMany;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+/**
+ * Classe Conseiller caractérisée par une liste de clients et un gérant. Cette
+ * classe hérite de la classe Employe.
+ * 
+ * @author Chloé & Jean-Charles & Jérémi
+ *
+ */
 @Entity
 public class Conseiller extends Employe {
 

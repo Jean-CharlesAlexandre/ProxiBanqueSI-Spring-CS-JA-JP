@@ -19,6 +19,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * Classe RestGerantController qui gère le CRUD pour le gerant (création,
+ * lecture) et le CRUD pour le conseiller (création et lecture).
+ * 
+ * @author Chloé & Jean-Charles & Jérémi
+ *
+ */
 @CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/gerants")
@@ -26,7 +33,7 @@ public class RestGerantController {
 
 	@Autowired
 	GerantService gerantService;
-	
+
 	@Autowired
 	ConseillerService consService;
 
@@ -46,7 +53,7 @@ public class RestGerantController {
 	public List<Conseiller> recupererListeConseillers() {
 		return gerantService.recupererListeConseillers();
 	}
-	
+
 //	@ResponseStatus(code = HttpStatus.CREATED)
 //	@PutMapping
 //	public Conseiller updateConseiller(@RequestBody Conseiller conseiller) {
@@ -68,7 +75,5 @@ public class RestGerantController {
 	public Gerant recupererGerantParId(@PathVariable("id") Long id) {
 		return gerantService.recupererGerantParId(id);
 	}
-	
-	
 
 }

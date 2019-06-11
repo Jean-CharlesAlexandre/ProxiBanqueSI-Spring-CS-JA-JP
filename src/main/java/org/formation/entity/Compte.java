@@ -14,6 +14,13 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+/**
+ * Classe Compte caractérisée par un id, un numéro de compte, une date
+ * d'ouverture et un solde.
+ * 
+ * @author Chloé & Jean-Charles & Jérémi
+ *
+ */
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @Entity
 public class Compte {

@@ -5,9 +5,16 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+/**
+ * Classe Agence caractérisée par un id, un numéro d'agence et une date de
+ * création.
+ * 
+ * @author Chloé & Jean-Charles & Jérémi
+ *
+ */
 @Entity
 public class Agence {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;

@@ -8,6 +8,8 @@ import org.formation.entity.Gerant;
 public interface GerantService {
 
 	public void creerConseiller(Conseiller cons);
+	
+	public void updateConseiller(Conseiller cons);
 
 	public Conseiller recupererConseillerParId(Long id);
 

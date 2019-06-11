@@ -8,7 +8,13 @@ import javax.persistence.OneToOne;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-//@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+/**
+ * Classe Client caractérisée par un compte courant, un compte épargne, un nom,
+ * un prénom et une raison sociale. Cette classé hérite de la classe Personne.
+ * 
+ * @author Chloé & Jean-Charles & Jérémi
+ *
+ */
 @Entity
 public class Client extends Personne {
 

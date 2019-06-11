@@ -9,6 +9,12 @@ import javax.persistence.OneToMany;
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
+/**
+ * Classe Gerant caractérisée par une liste de conseillers. Cette classe hérite de la classe Employe.
+ * 
+ * @author Chloé & Jean-Charles & Jérémi
+ *
+ */
 @Entity
 public class Gerant extends Employe {
 

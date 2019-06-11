@@ -22,6 +22,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * Classe RestConseillerController qui gère le CRUD pour le client (ajout,
+ * modification, lecture et suppression du client)
+ * 
+ * @author Chloé & Jean-Charles & Jérémi
+ *
+ */
 @CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/clients")
@@ -42,7 +49,7 @@ public class RestConseillerController {
 		Client c = client;
 		c.setConseiller(cons);
 		cons.getListeClients().add(c);
-		gerantService.creerConseiller(cons);
+		gerantService.updateConseiller(cons);
 		return client;
 	}
 
@@ -60,7 +67,7 @@ public class RestConseillerController {
 
 	@ResponseStatus(code = HttpStatus.CREATED)
 	@PutMapping("/{id}")
-	public Client updateClient(@RequestBody Client client) { 
+	public Client updateClient(@RequestBody Client client) {
 		Client c = conseillerService.recupererClientParId(client.getId());
 		Long idCons = c.getConseiller().getId();
 		Conseiller cons = gerantService.recupererConseillerParId(idCons);

@@ -29,6 +29,14 @@ public class GerantServiceImpl implements GerantService {
 			LOGGER.info("Conseiller d'id " + cons.getId() + " a été créé");
 		}
 	}
+	
+	@Override
+	public void updateConseiller(Conseiller cons) {
+		if (cons != null) {
+			consRepository.save(cons);
+			LOGGER.info("Conseiller d'id " + cons.getId() + " a été modifié");
+		}
+	}
 
 	@Override
 	public Conseiller recupererConseillerParId(Long id) {

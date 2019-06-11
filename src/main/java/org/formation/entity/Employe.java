@@ -4,7 +4,12 @@ import javax.persistence.Entity;
 import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
 
-//@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+/**
+ * Classe Employe caractérisée par un identifiant, un mot de passe, un nom, et un prénom. Cette classe hérite de la classe Personne.
+ * 
+ * @author Chloé & Jean-Charles & Jérémi
+ *
+ */
 @Entity
 public class Employe extends Personne {
 

@@ -2,6 +2,12 @@ package org.formation.entity;
 
 import javax.persistence.Entity;
 
+/**
+ * Classe Compte épargne caractérisée par un taux de rémunération. Cette classe hérite de la classe Compte.
+ * 
+ * @author Chloé & Jean-Charles & Jérémi
+ *
+ */
 @Entity
 public class CompteEpargne extends Compte {
 
